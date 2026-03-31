@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Grenzgeschichten Podcast Quiz – Biergerpakt",
   "dependencies": {
-    "http-server": "^14.1.1"
+    "express": "^4.18.2"
   },
   "scripts": {
-    "start": "http-server . -p $PORT --cors -c-1"
+    "start": "node server.js"
   }
 }

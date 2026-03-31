@@ -3,7 +3,7 @@ let user = {};
 let selectedEpisode = null;
 
 // ── Episoden ──────────────────────────────────────────────
-const EPISODES = [
+var EPISODES = [
   {
     id: 1,
     number: 'Folge 1',
@@ -461,6 +461,30 @@ const EPISODES = [
   }
 ];
 
+// ── Persistenz: gespeicherte Fragen vom Server laden ──
+function loadSavedEpisodes(callback) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '/api/questions', true);
+  xhr.onload = function() {
+    try {
+      if (xhr.status === 200) {
+        var parsed = JSON.parse(xhr.responseText);
+        if (parsed && Array.isArray(parsed)) {
+          parsed.forEach(function(savedEp) {
+            var ep = EPISODES.find(function(e) { return e.id === savedEp.id; });
+            if (ep && savedEp.questions) {
+              ep.questions = savedEp.questions;
+            }
+          });
+        }
+      }
+    } catch (e) {}
+    if (callback) callback();
+  };
+  xhr.onerror = function() { if (callback) callback(); };
+  xhr.send();
+}
+
 // ── Quiz-Status ───────────────────────────────────────────
 let answers      = [];
 let wrongIndices = [];
@@ -830,13 +854,59 @@ function adminSave() {
     ep.questions[qi].explanation = el.value;
   });
 
-  var msg = document.getElementById('admin-saved-msg');
-  msg.style.display = 'inline';
-  setTimeout(function() { msg.style.display = 'none'; }, 2500);
+  // Persist to server
+  var toSave = EPISODES.map(function(ep) {
+    return { id: ep.id, questions: ep.questions };
+  });
+
+  var saveBtn = document.getElementById('btn-admin-save');
+  saveBtn.disabled = true;
+  saveBtn.textContent = 'Speichern\u2026';
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', '/api/questions', true);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.onload = function() {
+    saveBtn.disabled = false;
+    saveBtn.textContent = '\u00c4nderungen speichern';
+    var msg = document.getElementById('admin-saved-msg');
+    if (xhr.status === 200) {
+      msg.style.display = 'inline';
+      msg.style.color = 'var(--green)';
+      msg.textContent = '\u2713 Gespeichert!';
+    } else {
+      msg.style.display = 'inline';
+      msg.style.color = 'var(--red)';
+      msg.textContent = '\u2717 Fehler beim Speichern';
+    }
+    setTimeout(function() { msg.style.display = 'none'; }, 2500);
+  };
+  xhr.onerror = function() {
+    saveBtn.disabled = false;
+    saveBtn.textContent = '\u00c4nderungen speichern';
+    var msg = document.getElementById('admin-saved-msg');
+    msg.style.display = 'inline';
+    msg.style.color = 'var(--red)';
+    msg.textContent = '\u2717 Verbindungsfehler';
+    setTimeout(function() { msg.style.display = 'none'; }, 2500);
+  };
+  xhr.send(JSON.stringify(toSave));
+}
+
+function adminReset() {
+  if (!confirm('Alle \u00c4nderungen werden gel\u00f6scht und die Originalfragen wiederhergestellt. Fortfahren?')) return;
+  var xhr = new XMLHttpRequest();
+  xhr.open('DELETE', '/api/questions', true);
+  xhr.onload = function() { location.reload(); };
+  xhr.onerror = function() { location.reload(); };
+  xhr.send();
 }
 
 // ── Event Listeners (nach DOM-Laden) ─────────────────────
 document.addEventListener('DOMContentLoaded', function() {
+  // Load saved questions from server before anything else
+  loadSavedEpisodes();
+
   document.getElementById('btn-register').addEventListener('click', doRegister);
   document.getElementById('btn-start-quiz').addEventListener('click', startQuiz);
   document.getElementById('btn-next').addEventListener('click', nextQuestion);
@@ -855,4 +925,5 @@ document.addEventListener('DOMContentLoaded', function() {
     if (e.key === 'Enter') adminLogin();
   });
   document.getElementById('btn-admin-save').addEventListener('click', adminSave);
+  document.getElementById('btn-admin-reset').addEventListener('click', adminReset);
 });
