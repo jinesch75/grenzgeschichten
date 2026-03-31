@@ -1,0 +1,11 @@
+{
+  "name": "grenzgeschichten",
+  "version": "1.0.0",
+  "description": "Grenzgeschichten Podcast Quiz – Biergerpakt",
+  "dependencies": {
+    "serve": "^14.2.4"
+  },
+  "scripts": {
+    "start": "serve . -l $PORT"
+  }
+}
