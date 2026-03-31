@@ -72,390 +72,390 @@ const EPISODES = [
   {
     id: 2,
     number: 'Folge 2',
-    title: 'Ausbildung und Studium in Luxemburg',
-    description: 'Studienbeihilfen, Berufsausbildung und Abschlussanerkennung: Welche F\u00f6rderungen stehen Grenzg\u00e4ngern und ihren Kindern in Luxemburg zu und wie funktioniert das Bildungssystem?',
+    title: 'Rente & Mitbestimmung \u2013 Was dir in Luxemburg zusteht',
+    description: 'Wann kann ich in Luxemburg in Rente gehen? Wie funktioniert die Krankenversicherung im Ruhestand? Und welche Mitbestimmungsrechte haben Grenzg\u00e4nger als Arbeitnehmer im Betrieb?',
     spotifyEmbed: 'https://open.spotify.com/embed/episode/2A7uEn44lvZtSdGfws4DzR?utm_source=generator&theme=0',
-    topics: ['Studienbeihilfe (bourse d\u2019\u00e9tudes)', 'Anerkennung von Abschl\u00fcssen', 'Duale Ausbildung', 'guichet.lu', 'MENJE', 'F\u00f6rderbedingungen'],
+    topics: ['Luxemburgische Rente', 'Rentenerwartungen', 'Krankenversicherung im Ruhestand', 'Personaldelegation', 'Sozialwahlen', 'Mitbestimmungsrechte'],
     questions: [
       {
-        text: 'Kann ein in Deutschland wohnhafter Grenzg\u00e4nger f\u00fcr sein Kind Studienbeihilfe (bourse d\u2019\u00e9tudes) in Luxemburg beantragen?',
+        text: 'Wann hat ein Grenzg\u00e4nger, der in Luxemburg gearbeitet hat, Anspruch auf die volle luxemburgische Rente (pension compl\u00e8te)?',
         options: [
-          'Nein, nur luxemburgische Wohnans\u00e4ssige haben Anspruch',
-          'Ja, wenn mindestens ein Elternteil in Luxemburg besch\u00e4ftigt ist und bestimmte Voraussetzungen erf\u00fcllt sind',
-          'Nur wenn das Kind die luxemburgische Staatsangeh\u00f6rigkeit besitzt',
-          'Nur f\u00fcr ein Studium an einer luxemburgischen Universit\u00e4t'
+          'Mit 60 Jahren, unabh\u00e4ngig von der Beitragszeit',
+          'Nach 40 Beitragsjahren oder mit 65 Jahren nach mindestens 10 Beitragsjahren',
+          'Mit 67 Jahren wie in Deutschland',
+          'Erst nach 30 Jahren Besch\u00e4ftigung ausschlie\u00dflich in Luxemburg'
         ],
         correct: 1,
-        explanation: 'Kinder von Grenzg\u00e4ngern k\u00f6nnen luxemburgische Studienbeihilfe erhalten, sofern mindestens ein Elternteil in Luxemburg arbeitet und weitere Voraussetzungen (u.\u00a0a. Mindesteinkommen) erf\u00fcllt sind. Das Studium muss nicht in Luxemburg stattfinden.'
+        explanation: 'In Luxemburg hat man nach 40 Beitragsjahren Anspruch auf die volle Rente \u2013 unabh\u00e4ngig vom Alter. Mit 65 Jahren gen\u00fcgen mindestens 10 Beitragsjahre. Grenzg\u00e4nger haben dieselben Rentenanspruch wie in Luxemburg wohnhafte Arbeitnehmer.'
       },
       {
-        text: 'Wo stellt man als Grenzg\u00e4nger einen Antrag auf Studienbeihilfe in Luxemburg?',
+        text: 'Wie funktioniert die Krankenversicherung f\u00fcr ehemalige Grenzg\u00e4nger, die eine luxemburgische Rente beziehen und in Deutschland wohnen?',
         options: [
-          'Bei der deutschen Bundesagentur f\u00fcr Arbeit',
-          'Beim luxemburgischen Arbeitsamt (ADEM)',
-          '\u00dcber das Portal guichet.lu (B\u00fcrgerportal Luxemburgs)',
-          'Beim deutschen BAf\u00f6G-Amt'
+          'Sie sind ausschlie\u00dflich \u00fcber die deutsche gesetzliche Krankenversicherung abgesichert',
+          'Sie m\u00fcssen sich privat versichern, da sie nicht mehr in Luxemburg wohnen',
+          'Als Bezieher einer luxemburgischen Rente bleiben sie \u00fcber die luxemburgische CNS krankenversichert, auch mit Wohnsitz in Deutschland',
+          'Sie haben nach dem Renteneintritt keinen Krankenversicherungsschutz mehr'
         ],
         correct: 2,
-        explanation: 'Alle Antr\u00e4ge auf Studienbeihilfe in Luxemburg werden \u00fcber das offizielle B\u00fcrgerportal guichet.lu gestellt. Dort finden sich auch alle n\u00f6tigen Informationen zu Fristen, Unterlagen und Voraussetzungen.'
+        explanation: 'Wer eine luxemburgische Rente bezieht, bleibt \u00fcber die CNS (Caisse Nationale de Sant\u00e9) krankenversichert \u2013 auch mit Wohnsitz in Deutschland. Im Rahmen der EU-Koordinierungsregeln werden Behandlungskosten in Deutschland erstattet.'
       },
       {
-        text: 'Werden deutsche Schul- und Berufsabschl\u00fcsse in Luxemburg automatisch anerkannt?',
+        text: 'Was ist die Personaldelegation (d\u00e9l\u00e9gation du personnel) in luxemburgischen Unternehmen?',
         options: [
-          'Ja, innerhalb der EU werden alle Abschl\u00fcsse automatisch anerkannt',
-          'Nein, in Luxemburg gibt es kein Anerkennungsverfahren',
-          'Nicht automatisch; es ist in der Regel ein offizielles Anerkennungsverfahren beim zust\u00e4ndigen Ministerium notwendig',
-          'Nur Universit\u00e4tsabschl\u00fcsse werden anerkannt, keine Berufsausbildungen'
+          'Eine staatliche Kontrollbeh\u00f6rde, die Betriebe im Auftrag des Arbeitsministeriums \u00fcberwacht',
+          'Ein gew\u00e4hltes Gremium aus Arbeitnehmervertretern, das die Belegschaft gegen\u00fcber dem Arbeitgeber repr\u00e4sentiert',
+          'Ein internes Managementorgan des Unternehmens',
+          'Ein Ausschuss ausschlie\u00dflich f\u00fcr luxemburgische Staatsangeh\u00f6rige im Betrieb'
+        ],
+        correct: 1,
+        explanation: 'Die Personaldelegation ist ein gew\u00e4hltes Arbeitnehmervertretungsgremium in luxemburgischen Betrieben. Sie vertritt die Interessen aller Besch\u00e4ftigten \u2013 unabh\u00e4ngig von Nationalit\u00e4t oder Wohnsitz \u2013 gegen\u00fcber dem Arbeitgeber.'
+      },
+      {
+        text: 'Ab wie vielen Besch\u00e4ftigten m\u00fcssen luxemburgische Unternehmen eine Personaldelegation einrichten?',
+        options: [
+          'Ab 5 Besch\u00e4ftigten',
+          'Ab 15 Besch\u00e4ftigten',
+          'Ab 50 Besch\u00e4ftigten',
+          'Ab 100 Besch\u00e4ftigten'
+        ],
+        correct: 1,
+        explanation: 'In Luxemburg sind Unternehmen ab 15 Besch\u00e4ftigten gesetzlich verpflichtet, eine Personaldelegation einzurichten. Diese vertritt alle Arbeitnehmer des Betriebs, unabh\u00e4ngig von deren Nationalit\u00e4t oder Wohnsitz.'
+      },
+      {
+        text: 'K\u00f6nnen deutsche Grenzg\u00e4nger an den Sozialwahlen (Wahl der Personaldelegation) in luxemburgischen Betrieben teilnehmen?',
+        options: [
+          'Nein, nur luxemburgische Staatsangeh\u00f6rige sind wahlberechtigt',
+          'Nein, nur Arbeitnehmer mit Wohnsitz in Luxemburg d\u00fcrfen w\u00e4hlen',
+          'Ja, als Besch\u00e4ftigte des Betriebs haben Grenzg\u00e4nger dasselbe aktive und passive Wahlrecht wie alle anderen Kollegen',
+          'Nur als Wahlbeobachter, aber nicht als Kandidaten'
         ],
         correct: 2,
-        explanation: 'Deutsche Abschl\u00fcsse werden in Luxemburg nicht automatisch anerkannt. Das zust\u00e4ndige Ministerium (MENJE f\u00fcr Bildung) pr\u00fcft die Gleichwertigkeit und stellt eine Anerkennung aus. F\u00fcr reglementierte Berufe gibt es zus\u00e4tzliche Anforderungen.'
-      },
-      {
-        text: 'Was ist das duale Ausbildungssystem (formation en alternance) in Luxemburg?',
-        options: [
-          'Eine Ausbildung, die vollst\u00e4ndig im Betrieb ohne Schulunterricht stattfindet',
-          'Eine Kombination aus betrieblicher Praxis und theoretischem Unterricht an einer Berufsschule',
-          'Ein ausschlie\u00dflich schulisches Programm ohne Betriebspraktika',
-          'Ein Fernstudienangebot ausschlie\u00dflich f\u00fcr Grenzg\u00e4nger'
-        ],
-        correct: 1,
-        explanation: 'Das duale Ausbildungssystem (formation en alternance) in Luxemburg verbindet praktische Ausbildung im Betrieb mit theoretischem Unterricht an einer Berufsschule \u2013 \u00e4hnlich wie in Deutschland. Grenzg\u00e4nger k\u00f6nnen diese Ausbildungsform ebenfalls nutzen.'
-      },
-      {
-        text: 'Welche Institution ist in Luxemburg haupts\u00e4chlich f\u00fcr die Anerkennung ausl\u00e4ndischer Schul- und Bildungsabschl\u00fcsse zust\u00e4ndig?',
-        options: [
-          'Die ADEM (Agence pour le D\u00e9veloppement de l\u2019Emploi)',
-          'Das Bildungsministerium (MENJE \u2013 Minist\u00e8re de l\u2019\u00c9ducation nationale, de l\u2019Enfance et de la Jeunesse)',
-          'Die Handelskammer (Chambre de Commerce)',
-          'Die Universit\u00e4t Luxemburg'
-        ],
-        correct: 1,
-        explanation: 'Das MENJE (Bildungsministerium) ist die zust\u00e4ndige Beh\u00f6rde f\u00fcr die Anerkennung ausl\u00e4ndischer Schul- und Bildungsabschl\u00fcsse in Luxemburg. F\u00fcr Berufsqualifikationen k\u00f6nnen je nach Beruf auch andere Ministerien zust\u00e4ndig sein.'
+        explanation: 'Grenzg\u00e4nger haben bei den Sozialwahlen in luxemburgischen Betrieben dasselbe aktive (w\u00e4hlen) und passive (gew\u00e4hlt werden) Wahlrecht wie alle anderen Arbeitnehmer. Nationalit\u00e4t und Wohnsitz spielen dabei keine Rolle.'
       }
     ]
   },
   {
     id: 3,
     number: 'Folge 3',
-    title: 'Rente und Mitbestimmung am Arbeitsplatz',
-    description: 'Wann kann ich in Luxemburg in Rente gehen? Wie funktioniert die Krankenversicherung im Ruhestand? Und welche Mitbestimmungsrechte haben Grenzg\u00e4nger im Betrieb?',
+    title: 'Ausbildung und Studium \u2013 Deine M\u00f6glichkeiten in Luxemburg',
+    description: 'Wie funktioniert das luxemburgische Ausbildungssystem? Welche Studienbeihilfen gibt es f\u00fcr Grenzg\u00e4nger und ihre Kinder? Und wie beantrage ich Unterst\u00fctzung \u00fcber guichet.lu?',
     spotifyEmbed: 'https://open.spotify.com/embed/episode/6oXlUxVM1GtDs9ISZc28hg?utm_source=generator&theme=0',
-    topics: ['Luxemburgische Rente', 'Rentenalter', 'Krankenversicherung im Ruhestand', 'Personaldelegation', 'Sozialwahlen', 'Mitbestimmungsrechte'],
+    topics: ['Studienbeihilfe', 'guichet.lu', 'Duales Ausbildungssystem', 'Anerkennung von Abschl\u00fcssen', 'SFP (Berufsausbildung)', 'F\u00f6rderbedingungen f\u00fcr Grenzg\u00e4nger'],
     questions: [
       {
-        text: 'Wann hat ein Grenzg\u00e4nger, der ausschlie\u00dflich in Luxemburg gearbeitet hat, Anspruch auf die volle luxemburgische Rente (pension compl\u00e8te)?',
+        text: 'Kann ein in Deutschland wohnhafter Grenzg\u00e4nger luxemburgische Studienbeihilfe f\u00fcr sein Kind beantragen?',
         options: [
-          'Mit 60 Jahren, unabh\u00e4ngig von der Beitragszeit',
-          'Nach 40 Beitragsjahren oder mit 65 Jahren nach mindestens 10 Beitragsjahren',
-          'Mit 67 Jahren wie in Deutschland',
-          'Erst nach 30 Jahren Besch\u00e4ftigung in Luxemburg'
+          'Nein, nur Personen mit Wohnsitz in Luxemburg haben Anspruch auf Studienbeihilfe',
+          'Ja, wenn mindestens ein Elternteil in Luxemburg besch\u00e4ftigt ist und weitere Bedingungen erf\u00fcllt sind',
+          'Nur wenn das Kind an einer luxemburgischen Universit\u00e4t studiert',
+          'Nur wenn das Kind die luxemburgische Staatsangeh\u00f6rigkeit besitzt'
         ],
         correct: 1,
-        explanation: 'In Luxemburg hat man nach 40 Beitragsjahren Anspruch auf die volle Rente (unabh\u00e4ngig vom Alter). Mit 65 Jahren gen\u00fcgen mindestens 10 Beitragsjahre. Grenzg\u00e4nger haben dieselben Rentenanspruch wie in Luxemburg wohnhafte Arbeitnehmer.'
+        explanation: 'Kinder von Grenzg\u00e4ngern k\u00f6nnen luxemburgische Studienbeihilfe erhalten, sofern mindestens ein Elternteil in Luxemburg berufst\u00e4tig ist und die weiteren Voraussetzungen erf\u00fcllt sind. Das Studium muss nicht zwingend in Luxemburg stattfinden.'
       },
       {
-        text: 'Wie ist die Krankenversicherung f\u00fcr luxemburgische Rentner geregelt, die ihren Wohnsitz in Deutschland haben?',
+        text: 'Wie wird der Antrag auf luxemburgische Studienbeihilfe gestellt?',
         options: [
-          'Sie sind weiterhin bei der deutschen Krankenkasse versichert',
-          'Sie m\u00fcssen eine private Krankenversicherung abschlie\u00dfen',
-          'Als Bezieher einer luxemburgischen Rente bleiben sie \u00fcber die CNS (luxemburgische Krankenversicherung) krankenversichert',
-          'Sie haben keinen Anspruch auf Krankenversicherung'
+          'Beim deutschen BAf\u00f6G-Amt am Wohnsitz des Antragstellers',
+          'Direkt beim Ministerium f\u00fcr Hochschulwesen per Post',
+          '\u00dcber das offizielle luxemburgische B\u00fcrgerportal guichet.lu',
+          'Bei der ADEM (Agence pour le D\u00e9veloppement de l\u2019Emploi)'
         ],
         correct: 2,
-        explanation: 'Wer eine luxemburgische Rente bezieht, bleibt \u00fcber die CNS krankenversichert \u2013 auch wenn er in Deutschland wohnt. Die CNS \u00fcbernimmt die Kosten f\u00fcr medizinische Behandlungen, die in Deutschland entstehen, im Rahmen der EU-Koordinierungsregeln.'
+        explanation: 'Der Antrag auf Studienbeihilfe wird \u00fcber das Beh\u00f6rdenportal guichet.lu gestellt. Dort findet man auch alle relevanten Informationen zu Fristen, ben\u00f6tigten Unterlagen und Voraussetzungen.'
       },
       {
-        text: 'Was sind die Sozialwahlen (d\u00e9l\u00e9gations du personnel) in Luxemburg?',
+        text: 'Wer ist Mirko Mazzi und welche Rolle spielt er in dieser Folge?',
         options: [
-          'Eine Volksabstimmung \u00fcber sozialpolitische Themen in Luxemburg',
-          'Wahlen zum luxemburgischen Parlament (Chambre des D\u00e9put\u00e9s)',
-          'Betriebsinterne Wahlen, bei denen Arbeitnehmer ihre Personalvertreter (d\u00e9l\u00e9gation du personnel) w\u00e4hlen',
-          'Wahlen zur Handelskammer (Chambre de Commerce)'
-        ],
-        correct: 2,
-        explanation: 'Alle 5 Jahre finden in luxemburgischen Betrieben Sozialwahlen statt, bei denen die Belegschaft ihre Personalvertreter (d\u00e9l\u00e9gation du personnel) w\u00e4hlt. Diese vertreten die Interessen der Arbeitnehmer gegen\u00fcber dem Arbeitgeber.'
-      },
-      {
-        text: 'Ab wie vielen Mitarbeitern m\u00fcssen luxemburgische Unternehmen eine Personaldelegation (d\u00e9l\u00e9gation du personnel) einrichten?',
-        options: [
-          'Ab 5 Mitarbeitern',
-          'Ab 15 Mitarbeitern',
-          'Ab 50 Mitarbeitern',
-          'Ab 100 Mitarbeitern'
+          'Er ist Direktor der luxemburgischen Arbeitsvermittlung ADEM und erkl\u00e4rt Jobsuche in Luxemburg',
+          'Er leitet die Abteilung f\u00fcr Studienbeihilfen beim Ministerium f\u00fcr Forschung und Hochschulwesen und erkl\u00e4rt F\u00f6rderm\u00f6glichkeiten f\u00fcr Grenzg\u00e4nger',
+          'Er ist Rektor der Universit\u00e4t Luxemburg und stellt Studienm\u00f6glichkeiten vor',
+          'Er ist Schulleiter und erkl\u00e4rt das Schulsystem in Luxemburg'
         ],
         correct: 1,
-        explanation: 'In Luxemburg m\u00fcssen Unternehmen ab 15 Mitarbeitern eine Personaldelegation einrichten. Diese vertritt alle Arbeitnehmer des Betriebs, unabh\u00e4ngig von deren Nationalit\u00e4t oder Wohnsitz.'
+        explanation: 'Mirko Mazzi arbeitet beim Ministerium f\u00fcr Forschung und Hochschulwesen und leitet die Abteilung f\u00fcr Studienbeihilfen. In der Folge erkl\u00e4rt er die verschiedenen F\u00f6rderm\u00f6glichkeiten, die Bedingungen f\u00fcr Grenzg\u00e4nger und den Online-Antragsprozess.'
       },
       {
-        text: 'K\u00f6nnen deutsche Grenzg\u00e4nger an den Personalwahlen (Sozialwahlen) in luxemburgischen Betrieben teilnehmen?',
+        text: 'Was ist das duale Ausbildungssystem (formation en alternance) in Luxemburg?',
         options: [
-          'Nein, nur luxemburgische Staatsangeh\u00f6rige sind wahlberechtigt',
-          'Nein, nur in Luxemburg wohnhafte Arbeitnehmer d\u00fcrfen w\u00e4hlen',
-          'Ja, als Arbeitnehmer des Betriebs haben Grenzg\u00e4nger dasselbe aktive und passive Wahlrecht wie alle anderen Kollegen',
-          'Nur als Wahlbeobachter, aber nicht als Kandidaten'
+          'Eine Ausbildung, die vollst\u00e4ndig im Betrieb ohne Schulunterricht stattfindet',
+          'Eine Kombination aus betrieblicher Praxis und theoretischem Unterricht an einer Berufsschule',
+          'Ein rein schulisches Programm ohne Betriebspraktika',
+          'Ein Fernstudienangebot ausschlie\u00dflich f\u00fcr Grenzg\u00e4nger'
+        ],
+        correct: 1,
+        explanation: 'Das duale Ausbildungssystem (formation en alternance) verbindet praktische Ausbildung im Betrieb mit theoretischem Unterricht in der Berufsschule \u2013 \u00e4hnlich wie in Deutschland. Marc Sinner vom SFP (Berufsausbildungsministerium) erkl\u00e4rt in der Folge den Zugang f\u00fcr deutsche Grenzg\u00e4nger.'
+      },
+      {
+        text: 'Werden deutsche Schul- und Berufsabschl\u00fcsse in Luxemburg automatisch anerkannt?',
+        options: [
+          'Ja, innerhalb der EU werden alle Abschl\u00fcsse gegenseitig automatisch anerkannt',
+          'Nein, es gibt in Luxemburg kein Anerkennungsverfahren f\u00fcr ausl\u00e4ndische Abschl\u00fcsse',
+          'Nicht automatisch; in der Regel ist ein offizielles Anerkennungsverfahren beim zust\u00e4ndigen Ministerium erforderlich',
+          'Nur Universit\u00e4tsabschl\u00fcsse werden anerkannt, keine Berufsausbildungen'
         ],
         correct: 2,
-        explanation: 'Grenzg\u00e4nger haben bei den Sozialwahlen in luxemburgischen Betrieben dasselbe aktive (w\u00e4hlen) und passive (gew\u00e4hlt werden) Wahlrecht wie alle anderen Arbeitnehmer des Unternehmens. Nationalit\u00e4t oder Wohnsitz spielen keine Rolle.'
+        explanation: 'Deutsche Abschl\u00fcsse werden in Luxemburg nicht automatisch anerkannt. Es ist ein offizielles Anerkennungsverfahren beim zust\u00e4ndigen Ministerium notwendig. F\u00fcr reglementierte Berufe k\u00f6nnen zus\u00e4tzliche Anforderungen bestehen.'
       }
     ]
   },
   {
     id: 4,
     number: 'Folge 4',
-    title: 'Steuern als Grenzg\u00e4nger \u2013 Das Doppelbesteuerungsabkommen',
-    description: 'Wo zahle ich Steuern? Was \u00e4ndert sich bei Homeoffice? Und wie mache ich eine Steuererkl\u00e4rung in Luxemburg? Alles Wissenswerte zum Doppelbesteuerungsabkommen Deutschland\u2013Luxemburg.',
+    title: 'Grenzenlos arbeiten \u2013 40 Jahre Schengen und der Alltag dazwischen',
+    description: 'Was bedeutet es heute, Grenzg\u00e4nger zu sein \u2013 und wie hat sich das in den letzten Jahrzehnten ver\u00e4ndert? Diese Folge nimmt dich mit auf eine Reise durch die Geschichte des Schengener Abkommens und besucht das neue Schengen-Museum.',
     spotifyEmbed: 'https://open.spotify.com/embed/episode/1tjiHJ3Hkwe0Chg4xkFeW4?utm_source=generator&theme=0',
-    topics: ['Doppelbesteuerungsabkommen (DBA)', 'Steuererkl\u00e4rung Luxemburg', 'Homeoffice & Steuern', '19-Tage-Regelung', 'Steuerklassen', 'guichet.lu'],
+    topics: ['Schengener Abkommen', '275.000 Grenzg\u00e4nger', 'Mus\u00e9e Europ\u00e9en Schengen', 'Atypische Grenzg\u00e4nger', 'Fachkr\u00e4ftemangel', 'Gro\u00dfregion'],
     questions: [
       {
-        text: 'Was regelt das Doppelbesteuerungsabkommen (DBA) zwischen Deutschland und Luxemburg?',
+        text: 'Wie viele Grenzg\u00e4nger arbeiten laut dieser Folge in Luxemburg?',
         options: [
-          'Einheitliche Sozialversicherungss\u00e4tze f\u00fcr Grenzg\u00e4nger',
-          'Welches Land das Besteuerungsrecht f\u00fcr welche Einkommensarten hat und wie eine Doppelbesteuerung vermieden wird',
-          'Die H\u00f6he der Einkommensteuer f\u00fcr Grenzg\u00e4nger',
-          'Die Anerkennung ausl\u00e4ndischer Steuerbescheide'
-        ],
-        correct: 1,
-        explanation: 'Das DBA regelt verbindlich, welches Land (Deutschland oder Luxemburg) das Besteuerungsrecht f\u00fcr bestimmte Einkommensarten hat. F\u00fcr Arbeitseinkommen gilt: besteuert wird dort, wo die Arbeit ausgef\u00fchrt wird \u2013 also in Luxemburg.'
-      },
-      {
-        text: 'Wie wirken sich Homeoffice-Tage eines Grenzg\u00e4ngers steuerlich aus?',
-        options: [
-          'Homeoffice-Tage haben keine steuerliche Relevanz',
-          'Homeoffice-Tage werden immer in Luxemburg versteuert',
-          'Homeoffice-Tage im Wohnsitzstaat k\u00f6nnen je nach \u00dcberschreitung der Schwelle anteilig in Deutschland steuerpflichtig werden',
-          'Homeoffice-Tage werden automatisch im steuerlich g\u00fcnstigeren Land versteuert'
+          'Rund 50.000',
+          '\u00dcber 100.000',
+          '\u00dcber 275.000',
+          'Etwa 500.000'
         ],
         correct: 2,
-        explanation: 'Das DBA sieht vor, dass Einkommen an dem Ort versteuert wird, wo die Arbeit geleistet wird. Wer von zu Hause in Deutschland arbeitet, kann f\u00fcr diese Tage in Deutschland steuerpflichtig werden, sobald bestimmte Schwellenwerte (z.\u00a0B. 19 Tage/34 Tage je nach Vereinbarung) \u00fcberschritten werden.'
+        explanation: 'Laut der Folge pendeln \u00fcber 275.000 Menschen t\u00e4glich als Grenzg\u00e4nger zur Arbeit nach Luxemburg \u2013 eine Zahl, die den enormen Umfang der grenz\u00fcberschreitenden Arbeitsmobilit\u00e4t in der Gro\u00dfregion verdeutlicht.'
       },
       {
-        text: 'Was passiert steuerlich, wenn ein Grenzg\u00e4nger mehr Homeoffice-Tage in Deutschland leistet als die vereinbarte Schwelle?',
+        text: 'Was ist das Mus\u00e9e Europ\u00e9en Schengen und warum wird es in der Folge besucht?',
         options: [
-          'Keine \u00c4nderung \u2013 der gesamte Lohn bleibt in Luxemburg steuerpflichtig',
-          'Das Besteuerungsrecht geht f\u00fcr die deutschen Arbeitstage anteilig auf Deutschland \u00fcber',
-          'Der Grenzg\u00e4nger verliert seinen Status und muss alle Steuern in Deutschland zahlen',
-          'Der Arbeitgeber zahlt eine Strafe an die luxemburgische Steuerbeh\u00f6rde'
+          'Ein Grenzmuseum, das ausschlie\u00dflich historische Zollkontrollen dokumentiert',
+          'Ein Museum, das die Geschichte und Bedeutung des Schengener Abkommens f\u00fcr Europa und die Grenzg\u00e4ngermobilit\u00e4t erlebbar macht',
+          'Ein luxemburgisches Nationalmuseum \u00fcber Einwanderungsgeschichte',
+          'Eine Ausstellung \u00fcber die Wirtschaftsgeschichte der Gro\u00dfregion'
         ],
         correct: 1,
-        explanation: 'Bei \u00dcberschreitung der Schwelle wird das auf die deutschen Arbeitstage entfallende Einkommen anteilig in Deutschland steuerpflichtig. Der Rest bleibt in Luxemburg versteuert. Daher ist es wichtig, Homeoffice-Tage sorgf\u00e4ltig zu dokumentieren.'
+        explanation: 'Das Mus\u00e9e Europ\u00e9en Schengen macht die Geschichte, Wirkung und Wahrnehmung des Schengener Abkommens erlebbar. Martina Kneip, Leiterin des Museums, erkl\u00e4rt in der Folge die Ausstellung zum 40-j\u00e4hrigen Jubil\u00e4um des Abkommens.'
       },
       {
-        text: 'Was ist der Vorteil einer freiwilligen Jahressteuererkl\u00e4rung in Luxemburg f\u00fcr Grenzg\u00e4nger?',
+        text: 'Wer ist Marie Feunteun-Schmidt und was ist ihre Expertise in dieser Folge?',
         options: [
-          'Man vermeidet die doppelte Steuerpflicht in Deutschland',
-          'Man kann Werbungskosten, Sonderausgaben und andere Abz\u00fcge geltend machen und erh\u00e4lt unter Umst\u00e4nden eine Steuererstattung',
-          'Man erh\u00e4lt automatisch die g\u00fcnstigste Steuerklasse in Luxemburg',
-          'Die Abgabe der Steuererkl\u00e4rung ist f\u00fcr alle Grenzg\u00e4nger gesetzlich vorgeschrieben'
+          'Sie ist Direktorin des Schengen-Museums und erkl\u00e4rt die Geschichte des Abkommens',
+          'Sie ist Koordinatorin der Interregionalen Arbeitsmarkt Beobachtungsstelle (IBA) und liefert Zahlen zur Grenzg\u00e4ngermobilit\u00e4t in der Gro\u00dfregion',
+          'Sie ist luxemburgische Politikerin und erkl\u00e4rt die aktuelle Migrationspolitik',
+          'Sie ist Arbeitsrechtlerin und ber\u00e4t Grenzg\u00e4nger zu ihren Rechten'
         ],
         correct: 1,
-        explanation: 'Durch die freiwillige Abgabe einer luxemburgischen Steuererkl\u00e4rung (d\u00e9compte annuel) k\u00f6nnen Grenzg\u00e4nger z.\u00a0B. Pendlerkosten, Versicherungspr\u00e4mien und andere Ausgaben absetzen. H\u00e4ufig ergibt sich daraus eine Steuerr\u00fcckerstattung.'
+        explanation: 'Marie Feunteun-Schmidt ist Koordinatorin der Interregionalen Arbeitsmarkt Beobachtungsstelle (IBA) und liefert in der Folge Zahlen, Entwicklungen und wirtschaftliche Perspektiven zur Grenzg\u00e4ngermobilit\u00e4t in der Gro\u00dfregion.'
       },
       {
-        text: 'Welche Steuerklasse gilt f\u00fcr verheiratete Grenzg\u00e4nger in Luxemburg standardm\u00e4\u00dfig?',
+        text: 'Was sind \u201eatypische Grenzg\u00e4nger\u201c, die in dieser Folge erw\u00e4hnt werden?',
         options: [
-          'Steuerklasse 1 (wie Alleinstehende)',
-          'Steuerklasse 2, sofern sie als Non-R\u00e9sidents mindestens 90\u00a0% ihres Welteinkommens in Luxemburg erzielen oder beantragen',
-          'Steuerklasse 3, die automatisch f\u00fcr alle Grenzg\u00e4nger gilt',
-          'Es gibt in Luxemburg keine Steuerklassen f\u00fcr Nicht-Ans\u00e4ssige'
+          'Grenzg\u00e4nger, die nur gelegentlich und nicht regelm\u00e4\u00dfig nach Luxemburg pendeln',
+          'Arbeitnehmer, die im Homeoffice arbeiten und daher nicht t\u00e4glich die Grenze \u00fcberqueren',
+          'Grenzg\u00e4nger mit besonderen Arbeitsbedingungen, z.\u00a0B. Nachtarbeit oder flexible Modelle, die neue Herausforderungen f\u00fcr Regelungen schaffen',
+          'Personen, die sowohl in Luxemburg als auch in Deutschland einer Besch\u00e4ftigung nachgehen'
+        ],
+        correct: 2,
+        explanation: 'Die Folge thematisiert \u201eatypische Grenzg\u00e4nger\u201c als eine wachsende Gruppe mit besonderen Arbeitsmodellen, die neue Herausforderungen f\u00fcr Regelungen und Strukturen in der Gro\u00dfregion schaffen.'
+      },
+      {
+        text: 'Was symbolisiert das Schengener Abkommen laut dieser Folge f\u00fcr die Grenzg\u00e4nger?',
+        options: [
+          'Prim\u00e4r ein b\u00fcrokratisches Instrument zur Vereinheitlichung von Visa-Vorschriften',
+          'Ein Symbol f\u00fcr Freiheit, europ\u00e4isches Miteinander und die M\u00f6glichkeit, ohne Grenzkontrollen zu arbeiten und zu leben',
+          'Ein wirtschaftliches Abkommen zwischen Deutschland und Luxemburg',
+          'Eine historische Vereinbarung ohne Bedeutung f\u00fcr den heutigen Alltag'
         ],
         correct: 1,
-        explanation: 'Verheiratete Grenzg\u00e4nger, die mindestens 90\u00a0% ihres Welteinkommens in Luxemburg erzielen (oder einen entsprechenden Antrag stellen), k\u00f6nnen die Steuerklasse 2 beantragen, die g\u00fcnstigere S\u00e4tze bietet. Andernfalls gilt Klasse 1.'
+        explanation: 'Die Folge zeigt, dass Schengen f\u00fcr viele Grenzg\u00e4nger weit mehr als ein politisches Dokument ist \u2013 es steht als Symbol f\u00fcr Freiheit, europ\u00e4isches Miteinander und die M\u00f6glichkeit, ohne Grenzkontrollen zwischen Deutschland und Luxemburg zu arbeiten und zu leben.'
       }
     ]
   },
   {
     id: 5,
     number: 'Folge 5',
-    title: 'Mehrsprachigkeit im Berufsleben',
-    description: 'Luxemburgisch, Franz\u00f6sisch, Deutsch \u2013 der Alltag in luxemburgischen Betrieben ist mehrsprachig. Welche Sprachkenntnisse werden erwartet, welche F\u00f6rderangebote gibt es und wie gelingt die sprachliche Integration?',
+    title: 'Zwischen Kollegen und Kulturen \u2013 wie sich Arbeiten in Luxemburg anf\u00fchlt',
+    description: 'Was passiert, wenn Kollegen aus Deutschland, Frankreich, Luxemburg, Portugal und vielen anderen L\u00e4ndern zusammenarbeiten? Diese Folge beleuchtet Mehrsprachigkeit, interkulturelle Kommunikation und den Cong\u00e9 Linguistique.',
     spotifyEmbed: 'https://open.spotify.com/embed/episode/1wBIFRrEKOGdI99JXZrOnT?utm_source=generator&theme=0',
-    topics: ['Amtssprachen Luxemburgs', 'Luxemburgisch im Betrieb', 'Sprachkurse (INL)', 'Arbeitsvertrag & Sprache', 'Sprachf\u00f6rderung', 'Sproochentest'],
+    topics: ['Mehrsprachigkeit am Arbeitsplatz', 'Cong\u00e9 Linguistique', 'Interkulturelle Kommunikation', 'Sprachkurse', 'Integration im Team', 'Kulturelle Unterschiede'],
     questions: [
       {
-        text: 'Welche Sprachen werden in Luxemburg offiziell als Amtssprachen anerkannt?',
+        text: 'Was ist der \u201eCong\u00e9 Linguistique\u201c (Sprachurlaub) in Luxemburg?',
         options: [
-          'Nur Luxemburgisch',
-          'Luxemburgisch, Franz\u00f6sisch und Deutsch',
-          'Englisch und Franz\u00f6sisch',
-          'Franz\u00f6sisch und Luxemburgisch'
+          'Ein bezahlter Urlaub, den Grenzg\u00e4nger nehmen m\u00fcssen, um Luxemburgisch zu lernen',
+          'Ein gesetzlicher Anspruch auf bezahlte Freistellung f\u00fcr Sprachkurse, den Arbeitnehmer in Luxemburg nutzen k\u00f6nnen',
+          'Ein Bildungsurlaub, der ausschlie\u00dflich luxemburgischen Staatangeh\u00f6rigen zusteht',
+          'Ein freiwilliges Programm des Arbeitgebers ohne gesetzliche Grundlage'
         ],
         correct: 1,
-        explanation: 'Luxemburg hat drei offizielle Amtssprachen: Luxemburgisch, Franz\u00f6sisch und Deutsch. Im Berufsalltag wird h\u00e4ufig zwischen allen drei Sprachen gewechselt, wobei Franz\u00f6sisch in vielen Verwaltungs- und Gesch\u00e4ftskontexten \u00fcberwiegt.'
+        explanation: 'Der Cong\u00e9 Linguistique ist ein gesetzlicher Anspruch auf bezahlte Freistellung f\u00fcr Sprachkurse in Luxemburg. Arbeitnehmer \u2013 auch Grenzg\u00e4nger \u2013 k\u00f6nnen diese Freistellung f\u00fcr das Erlernen von Luxemburgisch oder anderen Sprachen nutzen.'
       },
       {
-        text: 'Besteht f\u00fcr Grenzg\u00e4nger eine gesetzliche Pflicht, Luxemburgisch zu lernen?',
+        text: 'Zu welchem Forschungsthema arbeitet Lou Pepin an der Universit\u00e4t Luxemburg, der in dieser Folge zu Wort kommt?',
         options: [
-          'Ja, das Erlernen des Luxemburgischen ist f\u00fcr alle Arbeitnehmer in Luxemburg gesetzlich vorgeschrieben',
-          'Nein, es besteht keine gesetzliche Verpflichtung \u2013 Kenntnisse k\u00f6nnen jedoch die Karrierechancen erheblich verbessern',
-          'Nur Arbeitnehmer im \u00f6ffentlichen Dienst m\u00fcssen Luxemburgisch lernen',
-          'Ja, aber erst nach 5 Jahren Besch\u00e4ftigung in Luxemburg'
+          'Wirtschaftliche Auswirkungen der Grenzg\u00e4ngermobilit\u00e4t auf luxemburgische Unternehmen',
+          'Die Rolle von Sprache und Mehrsprachigkeit im Leben und Berufsalltag von Grenzg\u00e4ngern',
+          'Rechtliche Grundlagen des Grenzg\u00e4ngerstatus in der EU',
+          'Digitalisierung und Homeoffice-Regelungen in der Gro\u00dfregion'
         ],
         correct: 1,
-        explanation: 'Es gibt keine gesetzliche Pflicht f\u00fcr Arbeitnehmer in der Privatwirtschaft, Luxemburgisch zu lernen. Allerdings verbessern Luxemburgischkenntnisse die Integration und die beruflichen Aufstiegschancen deutlich \u2013 besonders im Kundenkontakt und im \u00f6ffentlichen Dienst.'
+        explanation: 'Lou Pepin ist Doktorand an der Universit\u00e4t Luxemburg und forscht zur Rolle von Sprache und Mehrsprachigkeit im Leben von Grenzg\u00e4ngern \u2013 einem zentralen Thema dieser Folge.'
       },
       {
-        text: 'Welche Institution bietet in Luxemburg kosteng\u00fcnstige oder subventionierte Sprachkurse f\u00fcr Berufst\u00e4tige an?',
+        text: 'Welche Sprachen spielen im luxemburgischen Berufsalltag laut der Folge eine wichtige Rolle?',
         options: [
-          'Das Institut National des Langues (INL) bietet Kurse zu erm\u00e4\u00dfigten Preisen an, auch f\u00fcr Grenzg\u00e4nger',
-          'Nur private Sprachschulen, deren Kosten der Arbeitgeber \u00fcbernehmen muss',
-          'Ausschlie\u00dflich die Universit\u00e4t Luxemburg f\u00fcr Akademiker',
-          'Die deutsche Botschaft in Luxemburg f\u00fcr deutsche Staatsangeh\u00f6rige'
-        ],
-        correct: 0,
-        explanation: 'Das Institut National des Langues (INL) ist die offizielle staatliche Einrichtung f\u00fcr Sprachkurse in Luxemburg. Es bietet Kurse in Luxemburgisch, Franz\u00f6sisch, Deutsch und weiteren Sprachen zu erm\u00e4\u00dfigten Preisen an \u2013 auch f\u00fcr Grenzg\u00e4nger.'
-      },
-      {
-        text: 'In welcher Sprache m\u00fcssen Arbeitsvertr\u00e4ge in Luxemburg ausgestellt werden?',
-        options: [
-          'Ausschlie\u00dflich auf Franz\u00f6sisch',
-          'Ausschlie\u00dflich auf Luxemburgisch',
-          'Es gibt keine gesetzliche Vorschrift zur Vertragssprache; Vertr\u00e4ge k\u00f6nnen in jeder f\u00fcr beide Parteien verst\u00e4ndlichen Sprache abgefasst werden',
-          'Auf Deutsch, da die meisten Grenzg\u00e4nger Deutsch sprechen'
+          'Ausschlie\u00dflich Luxemburgisch, da es die Landessprache ist',
+          'Nur Englisch und Franz\u00f6sisch im internationalen Gesch\u00e4ftsumfeld',
+          'Franz\u00f6sisch, Luxemburgisch, Deutsch und oft auch Englisch \u2013 je nach Branche und Team',
+          'Prim\u00e4r Deutsch, da die meisten Grenzg\u00e4nger aus Deutschland kommen'
         ],
         correct: 2,
-        explanation: 'Das luxemburgische Arbeitsrecht schreibt keine bestimmte Vertragssprache vor. Arbeitsvertr\u00e4ge k\u00f6nnen in jeder Sprache abgefasst werden, die beide Parteien verstehen. In der Praxis h\u00e4ufig: Franz\u00f6sisch, Deutsch oder Englisch.'
+        explanation: 'Im luxemburgischen Berufsalltag werden je nach Branche und Team Franz\u00f6sisch, Luxemburgisch, Deutsch und Englisch verwendet. Die Mehrsprachigkeit ist ein besonderes Merkmal des luxemburgischen Arbeitsmarkts.'
       },
       {
-        text: 'Was ist der \u201eSproochentest\u201c (Sprachtest) in Luxemburg und wof\u00fcr wird er ben\u00f6tigt?',
+        text: 'Welche Herausforderungen erw\u00e4hnen Jan und Ruth, die als deutsche Grenzg\u00e4nger im Gesundheitswesen arbeiten?',
         options: [
-          'Ein verpflichtender Einreisetest f\u00fcr alle Grenzg\u00e4nger',
-          'Ein Luxemburgisch-Sprachtest, der f\u00fcr den Erwerb der luxemburgischen Staatsb\u00fcrgerschaft erforderlich ist',
-          'Eine optionale Sprachzertifizierung f\u00fcr Berufseinsteiger',
-          'Ein interner Test bei luxemburgischen Arbeitgebern zur Beurteilung von Kandidaten'
+          'Zu lange Pendelzeiten machen ihre Arbeit unm\u00f6glich',
+          'Sprachliche Anforderungen und die Kommunikation mit Patienten und Kollegen in einem mehrsprachigen Umfeld',
+          'Fehlende Anerkennung ihrer deutschen Berufsabschl\u00fcsse',
+          'Schwierigkeiten bei der Steuerkl\u00e4rung in Luxemburg'
         ],
         correct: 1,
-        explanation: 'Der Sproochentest ist eine Pr\u00fcfung der Luxemburgischkenntnisse, die unter anderem f\u00fcr die Einb\u00fcrgerung (Erwerb der luxemburgischen Staatsb\u00fcrgerschaft) erforderlich ist. F\u00fcr Grenzg\u00e4nger ohne B\u00fcrgerschaftswunsch ist er nicht verpflichtend.'
+        explanation: 'Jan und Ruth berichten aus ihrem Berufsalltag im Krankenhaus und Pflegebereich, wo die sprachliche Kommunikation in einem mehrsprachigen Umfeld eine besondere Herausforderung darstellt.'
+      },
+      {
+        text: 'Was sagt die Folge dar\u00fcber, warum Sprache im Team \u201eoft \u00fcber mehr entscheidet als man denkt\u201c?',
+        options: [
+          'Weil der Arbeitsvertrag in der Sprache des Arbeitgebers verfasst sein muss',
+          'Weil Sprachkenntnisse direkt \u00fcber Geh\u00e4lt und Karrierestufe entscheiden',
+          'Weil Sprache nicht nur Kommunikationsmittel ist, sondern auch Integration, Vertrauen und Zusammengeh\u00f6rigkeitsgef\u00fchl im Team beeinflusst',
+          'Weil fehlende Luxemburgischkenntnisse zur K\u00fcndigung f\u00fchren k\u00f6nnen'
+        ],
+        correct: 2,
+        explanation: 'Die Folge zeigt, dass Sprache im Arbeitsalltag weit mehr ist als ein Kommunikationsmittel: Sie beeinflusst Integration, Vertrauen, Teamzusammengehorigkeitsgef\u00fchl und das Gef\u00fchl, wirklich Teil des Unternehmens zu sein.'
       }
     ]
   },
   {
     id: 6,
     number: 'Folge 6',
-    title: 'Familienleistungen und Alltag als Grenzg\u00e4nger',
-    description: 'Kindergeld, Kinderbetreuung, Familienzulagen: Welche Familienleistungen stehen Grenzg\u00e4ngern in Luxemburg zu und wie beantrage ich sie? Praktische Tipps f\u00fcr den Alltag.',
+    title: 'Malg\u00e9 moi oder Lebensmodell? \u2013 Was das Pendeln wirklich bedeutet',
+    description: 'T\u00e4glich pendeln Tausende von Deutschland nach Luxemburg. Welche psychischen und physischen Herausforderungen bringt das Pendeln mit sich? Und warum ist Homeoffice f\u00fcr Grenzg\u00e4nger steuerlich problematisch?',
     spotifyEmbed: 'https://open.spotify.com/embed/episode/17bJDNQazabTYgaSVaZzWJ?utm_source=generator&theme=0',
-    topics: ['Kindergeld (CAF)', 'Ch\u00e8que-Service Accueil', 'Kinderbetreuung', 'Familienbeihilfen', 'CCSS-Bescheinigung', 'Formular A1'],
+    topics: ['Pendelbelastung', 'Lebensqualit\u00e4t von Grenzg\u00e4ngern', 'Homeoffice & Steuern', 'Quality of Work Index', 'Chambre des salari\u00e9s', 'Psychische Gesundheit'],
     questions: [
       {
-        text: 'Welche Stelle ist f\u00fcr die Auszahlung von luxemburgischem Kindergeld (allocation familiale) an Grenzg\u00e4nger zust\u00e4ndig?',
+        text: 'Warum ist Homeoffice f\u00fcr Grenzg\u00e4nger nach Luxemburg steuerlich problematisch?',
         options: [
-          'Die deutsche Familienkasse der Bundesagentur f\u00fcr Arbeit',
-          'Das luxemburgische Finanzministerium',
-          'Die CAF (Caisse pour l\u2019Avenir des Enfants) in Luxemburg',
-          'Die Botschaft des Gro\u00dfherzogtums Luxemburg in Deutschland'
-        ],
-        correct: 2,
-        explanation: 'Die CAF (Caisse pour l\u2019Avenir des Enfants) ist die zust\u00e4ndige Kasse f\u00fcr Familienleistungen in Luxemburg, einschlie\u00dflich des Kindergeldes f\u00fcr Grenzg\u00e4nger. Der Antrag kann \u00fcber guichet.lu gestellt werden.'
-      },
-      {
-        text: 'K\u00f6nnen Kinder von Grenzg\u00e4ngern luxemburgische Kindertagesst\u00e4tten (Cr\u00e8ches) nutzen?',
-        options: [
-          'Nein, Betreuungsangebote stehen nur Kindern mit Wohnsitz in Luxemburg offen',
-          'Ja, aber nur gegen den vollen Marktpreis ohne staatliche Zusch\u00fcsse',
-          'Ja, Kinder von in Luxemburg besch\u00e4ftigten Eltern haben grunds\u00e4tzlich Zugang zu luxemburgischen Betreuungseinrichtungen',
-          'Nur wenn die Kinder luxemburgische Staatsangeh\u00f6rige sind'
-        ],
-        correct: 2,
-        explanation: 'Kinder von Grenzg\u00e4ngern, die in Luxemburg besch\u00e4ftigt sind, haben Zugang zu luxemburgischen Kindertagesst\u00e4tten. Unter bestimmten Voraussetzungen k\u00f6nnen auch Betreuungsgutscheine (Ch\u00e8que-Service Accueil) genutzt werden.'
-      },
-      {
-        text: 'Was ist der \u201eCh\u00e8que-Service Accueil\u201c (CSA) in Luxemburg?',
-        options: [
-          'Ein Reisegutschein f\u00fcr Grenzg\u00e4nger',
-          'Ein staatlich gesubventioniertes Gutscheinsystem, mit dem Eltern Kinderbetreuungskosten in zugelassenen Einrichtungen mitfinanzieren k\u00f6nnen',
-          'Ein Parkausweis f\u00fcr Grenzg\u00e4nger in luxemburgischen St\u00e4dten',
-          'Ein Einkaufsgutschein f\u00fcr Neub\u00fcrger Luxemburgs'
+          'Homeoffice ist f\u00fcr Grenzg\u00e4nger in Luxemburg gesetzlich verboten',
+          'Arbeitstage im deutschen Wohnsitzstaat k\u00f6nnen die Steuerverteilung zwischen Deutschland und Luxemburg ver\u00e4ndern, sobald bestimmte Schwellenwerte \u00fcberschritten werden',
+          'Luxemburgische Arbeitgeber d\u00fcrfen keine Homeoffice-Tage gew\u00e4hren',
+          'Im Homeoffice verdienen Grenzg\u00e4nger automatisch weniger, weil luxemburgische Zulagen wegfallen'
         ],
         correct: 1,
-        explanation: 'Der Ch\u00e8que-Service Accueil (CSA) ist ein staatliches Unterst\u00fctzungssystem, das Eltern Betreuungsgutscheine zur Verf\u00fcgung stellt. Der Eigenanteil richtet sich nach dem Einkommen. Grenzg\u00e4nger k\u00f6nnen dieses System ebenfalls nutzen.'
+        explanation: 'Laut der Folge bleibt Homeoffice f\u00fcr Grenzg\u00e4nger steuerlich komplex: Arbeitstage im deutschen Wohnsitzstaat k\u00f6nnen je nach Anzahl die Steuerverteilung zwischen Deutschland und Luxemburg beeinflussen, was die Attraktivit\u00e4t von Homeoffice-Regelungen einschr\u00e4nkt.'
       },
       {
-        text: 'Welches Formular belegt gegen\u00fcber der deutschen Krankenkasse, dass ein Grenzg\u00e4nger in Luxemburg sozialversicherungspflichtig ist?',
+        text: 'Wer ist David B\u00fcchel und welche Expertise bringt er in dieser Folge ein?',
         options: [
-          'Das Formular E101 bzw. A1 (Bescheinigung \u00fcber die anzuwendenden Rechtsvorschriften)',
-          'Eine einfache Best\u00e4tigung des Arbeitgebers gen\u00fcgt',
-          'Die luxemburgische und deutsche Krankenkasse kommunizieren automatisch miteinander',
-          'Kein Formular n\u00f6tig: Als Grenzg\u00e4nger ist man in beiden L\u00e4ndern versichert'
+          'Er ist Pendlerbeauftragter der luxemburgischen Regierung und erkl\u00e4rt neue Mobili\u00e4tsprojekte',
+          'Er ist Arbeitspsychologe bei der Chambre des salari\u00e9s und forscht zur Arbeitsqualit\u00e4t und zum Wohlbefinden von Besch\u00e4ftigten in Luxemburg',
+          'Er ist Verkehrsplaner und erkl\u00e4rt Infrastrukturma\u00dfnahmen f\u00fcr Pendler',
+          'Er ist Steuerberater und ber\u00e4t Grenzg\u00e4nger zu Homeoffice und Steuerrecht'
         ],
-        correct: 0,
-        explanation: 'Das Formular A1 (fr\u00fcher E101) best\u00e4tigt, dass ein Arbeitnehmer dem Sozialversicherungsrecht eines bestimmten EU-Mitgliedstaats unterliegt. Grenzg\u00e4nger, die in Luxemburg arbeiten, ben\u00f6tigen dieses Formular, um ihrer deutschen Krankenkasse nachzuweisen, dass sie in Luxemburg pflichtversichert sind.'
+        correct: 1,
+        explanation: 'David B\u00fcchel ist Arbeitspsychologe bei der Chambre des salari\u00e9s in Luxemburg. Er forscht zur Arbeitsqualit\u00e4t und zum Wohlbefinden der Erwerbst\u00e4tigen und erkl\u00e4rt in der Folge, was Studien \u00fcber die Lebensqualit\u00e4t der Grenzg\u00e4nger zeigen.'
       },
       {
-        text: 'Erhalten Grenzg\u00e4nger auch deutsches Kindergeld, wenn sie bereits luxemburgisches Kindergeld beziehen?',
+        text: 'Welche Herausforderungen erw\u00e4hnt die Folge konkret im Zusammenhang mit dem t\u00e4glichen Pendeln?',
         options: [
-          'Ja, man kann beide Kindergeldleistungen gleichzeitig in voller H\u00f6he beziehen',
-          'Nein, das ist v\u00f6llig ausgeschlossen',
-          'Das luxemburgische Kindergeld wird prim\u00e4r ausgezahlt; Deutschland zahlt ggf. einen Differenzbetrag, falls das deutsche Kindergeld h\u00f6her ist',
-          'Das ist nur m\u00f6glich, wenn beide Elternteile in verschiedenen L\u00e4ndern arbeiten'
+          'Sprachbarrieren beim Einkaufen in Luxemburg',
+          'Psychische und k\u00f6rperliche Belastungen wie Stress durch Staus, lange Pendelzeiten und das Spannungsfeld zwischen Beruf und Privatleben',
+          'Probleme bei der Wohnungssuche in der N\u00e4he der Grenze',
+          'Fehlende Kinderbetreuungsangebote in luxemburgischen Unternehmen'
         ],
-        correct: 2,
-        explanation: 'Nach EU-Recht zahlt der Besch\u00e4ftigungsstaat (Luxemburg) prim\u00e4r. Deutschland als Wohnsitzstaat zahlt nur eine Differenz, wenn der deutsche Anspruch h\u00f6her ist als der luxemburgische. Eine vollst\u00e4ndige Kumulation beider Leistungen ist nicht m\u00f6glich.'
+        correct: 1,
+        explanation: 'Die Folge thematisiert konkret psychische und k\u00f6rperliche Belastungen durch das Pendeln: Stresssymptome, Staus, lange Fahrzeiten und die Schwierigkeit, Beruf und Privatleben in Balance zu halten.'
+      },
+      {
+        text: 'Was zeigt der \u201eQuality of Work Index\u201c, den die Chambre des salari\u00e9s in dieser Folge erw\u00e4hnt?',
+        options: [
+          'Eine Rangliste der beliebtesten Arbeitgeber in Luxemburg',
+          'Eine j\u00e4hrliche Erhebung zur Zufriedenheit, Arbeitsbedingungen und Lebensqualit\u00e4t von Besch\u00e4ftigten in Luxemburg \u2013 auch f\u00fcr Grenzg\u00e4nger',
+          'Einen Vergleich der Mindestl\u00f6hne in der Gro\u00dfregion',
+          'Eine Statistik \u00fcber Krankenst\u00e4nde in luxemburgischen Unternehmen'
+        ],
+        correct: 1,
+        explanation: 'Der Quality of Work Index der Chambre des salari\u00e9s ist eine j\u00e4hrliche Erhebung, die Zufriedenheit, Arbeitsbedingungen und Wohlbefinden von Besch\u00e4ftigten in Luxemburg misst \u2013 und damit auch Einblicke in die Situation der Grenzg\u00e4nger gibt.'
+      },
+      {
+        text: 'Warum bleiben laut der Folge viele Grenzg\u00e4nger trotz der Pendelbelastung bei ihrer Arbeit in Luxemburg?',
+        options: [
+          'Weil sie gesetzlich verpflichtet sind, f\u00fcr mindestens 10 Jahre in Luxemburg zu arbeiten',
+          'Weil sie trotz der Herausforderungen Vorteile wie h\u00f6here L\u00f6hne, soziale Absicherung und berufliche Perspektiven sch\u00e4tzen',
+          'Weil es in Deutschland keine vergleichbaren Arbeitspl\u00e4tze gibt',
+          'Weil die Pendelstrecke in Luxemburg staatlich subventioniert wird'
+        ],
+        correct: 1,
+        explanation: 'Die Folge zeigt, dass viele Grenzg\u00e4nger trotz der Belastungen bewusst in Luxemburg arbeiten, weil sie die Vorteile \u2013 h\u00f6here L\u00f6hne, gute soziale Absicherung, berufliche M\u00f6glichkeiten \u2013 als attraktiv empfinden.'
       }
     ]
   },
   {
     id: 7,
     number: 'Folge 7',
-    title: 'Mitmachen in Luxemburg \u2013 Gesellschaftliche Teilhabe',
-    description: 'Wie kann ich als Grenzg\u00e4nger am gesellschaftlichen Leben in Luxemburg teilhaben? Welche Beteiligungsm\u00f6glichkeiten gibt es und was bietet der Biergerpakt?',
+    title: 'Mehr als Arbeiten \u2013 wie Grenzg\u00e4nger Teil der Gesellschaft werden',
+    description: 'Wie k\u00f6nnen Grenzg\u00e4nger am gesellschaftlichen Leben in Luxemburg teilhaben? Was bieten der Biergerpakt und der Gemengepakt? Und wie l\u00e4sst sich Ehrenamt ohne Wohnsitz in Luxemburg auszu\u00fcben?',
     spotifyEmbed: 'https://open.spotify.com/embed/episode/02BadNZkJrjzj1actHXRDb?utm_source=generator&theme=0',
-    topics: ['Biergerpakt', 'Zesummeliewen', 'Vereine & Ehrenamt', 'Wahlrechte', 'Integration', 'Gesellschaftliche Teilhabe'],
+    topics: ['Biergerpakt', 'Gemengepakt', 'Ehrenamt in Luxemburg', 'Gesetz zum interkulturellen Zusammenleben', 'B\u00fcrgerateliers', 'Agence du B\u00e9n\u00e9volat'],
     questions: [
       {
-        text: 'Was ist der \u201eBiergerpakt\u201c (Citoyennet\u00e9) in Luxemburg?',
+        text: 'Was ist der \u201eBiergerpakt\u201c und was bietet er Grenzg\u00e4ngern?',
         options: [
-          'Ein Gesetz, das Grenzg\u00e4nger zur Zahlung von Mitgliedsbeitr\u00e4gen verpflichtet',
-          'Eine Regierungsinitiative zur F\u00f6rderung der aktiven Teilhabe aller in Luxemburg lebenden und arbeitenden Menschen am gesellschaftlichen Leben',
-          'Ein bilaterales Abkommen zwischen Deutschland und Luxemburg \u00fcber Grenzpendler',
-          'Ein Programm zum Erwerb der luxemburgischen Staatsb\u00fcrgerschaft'
+          'Ein gesetzliches Programm, das Grenzg\u00e4nger zur Zahlung zus\u00e4tzlicher Abgaben verpflichtet',
+          'Eine luxemburgische Regierungsinitiative, die Grenzg\u00e4nger einl\u00e4dt, Luxemburg besser kennenzulernen \u2013 durch Sprach-, Kultur- und Begegnungsangebote',
+          'Ein bilaterales Abkommen zwischen Deutschland und Luxemburg zum Schutz von Pendlerrechten',
+          'Ein Programm ausschlie\u00dflich f\u00fcr Personen, die die luxemburgische Staatsb\u00fcrgerschaft anstreben'
         ],
         correct: 1,
-        explanation: 'Der Biergerpakt ist eine Initiative der luxemburgischen Regierung, die das aktive gesellschaftliche Engagement aller Menschen in Luxemburg f\u00f6rdern will \u2013 unabh\u00e4ngig von Nationalit\u00e4t oder Wohnsitz. Er umfasst Sprachkurse, Orientierungsmodule, Veranstaltungen und mehr.'
+        explanation: 'Der Biergerpakt ist eine luxemburgische Regierungsinitiative, die alle in Luxemburg arbeitenden Menschen \u2013 auch Grenzg\u00e4nger ohne Wohnsitz in Luxemburg \u2013 einl\u00e4dt, das Land besser kennenzulernen und am gesellschaftlichen Leben teilzunehmen: durch Sprachkurse, Orientierungsmodule, Bürgerateliers und kulturelle Angebote.'
       },
       {
-        text: 'K\u00f6nnen Grenzg\u00e4nger ohne Wohnsitz in Luxemburg an luxemburgischen Gemeinderatswahlen (Kommunalwahlen) teilnehmen?',
+        text: 'Was ist der \u201eGemengepakt\u201c, der in dieser Folge vorgestellt wird?',
         options: [
-          'Ja, alle EU-Grenzg\u00e4nger haben automatisch das kommunale Wahlrecht in Luxemburg',
-          'Nein, f\u00fcr die Teilnahme an Gemeinderatswahlen ist ein offizieller Wohnsitz in Luxemburg erforderlich',
-          'Ja, nach 5 Jahren Besch\u00e4ftigung in Luxemburg',
-          'Nur Grenzg\u00e4nger, die auch luxemburgische Steuern zahlen'
+          'Ein kommunales Abkommen zwischen luxemburgischen Gemeinden und Deutschland',
+          'Ein Programm, das Grenzg\u00e4nger zu gesellschaftlichem Engagement und Mitgestaltung in ihrer Arbeitsgemeinde einl\u00e4dt',
+          'Eine Vereinbarung zwischen Arbeitgebern und Arbeitnehmern \u00fcber soziale Leistungen',
+          'Ein staatliches Hilfsprogramm f\u00fcr Grenzg\u00e4nger in finanziellen Schwierigkeiten'
         ],
         correct: 1,
-        explanation: 'Das kommunale Wahlrecht in Luxemburg ist an einen Wohnsitz in der Gemeinde gekn\u00fcpft. Grenzg\u00e4nger, die nicht in Luxemburg wohnen, k\u00f6nnen daher nicht an luxemburgischen Gemeinderatswahlen teilnehmen.'
+        explanation: 'Der Gemengepakt richtet sich an Grenzg\u00e4nger und l\u00e4dt sie ein, sich in ihrer Arbeitsgemeinde zu engagieren und am lokalen Zusammenleben mitzugestalten \u2013 auch ohne offiziellen Wohnsitz in Luxemburg.'
       },
       {
-        text: 'K\u00f6nnen Grenzg\u00e4nger Mitglied in luxemburgischen Vereinen (associations) werden?',
+        text: 'Was erkl\u00e4rt der luxemburgische Familienminister Max Hahn in dieser Folge?',
         options: [
-          'Nein, Vereinsmitgliedschaften sind auf luxemburgische Staatsangeh\u00f6rige und Wohnans\u00e4ssige beschr\u00e4nkt',
-          'Ja, luxemburgische Vereine stehen grunds\u00e4tzlich allen offen, unabh\u00e4ngig von Nationalit\u00e4t oder Wohnsitz',
-          'Nur in Vereinen, die speziell f\u00fcr deutsche Grenzg\u00e4nger gegr\u00fcndet wurden',
-          'Nur wenn der Verein eine spezielle Genehmigung des Innenministeriums hat'
+          'Er erl\u00e4utert die Rentenanpassungen f\u00fcr Grenzg\u00e4nger ab 2025',
+          'Er erkl\u00e4rt, warum das neue Gesetz zum interkulturellen Zusammenleben (2023) einen Paradigmenwechsel in der luxemburgischen Integrationspolitik darstellt',
+          'Er stellt neue Steuerverg\u00fcnstigungen f\u00fcr Grenzg\u00e4nger vor',
+          'Er diskutiert die Ergebnisse der letzten Parlamentswahlen'
         ],
         correct: 1,
-        explanation: 'Luxemburgische Vereine und Organisationen stehen grundsdtlich allen Menschen offen \u2013 unabh\u00e4ngig von Nationalit\u00e4t oder Wohnsitz. Grenzg\u00e4nger k\u00f6nnen sich ehrenamtlich engagieren und am Vereinsleben teilnehmen.'
+        explanation: 'Max Hahn, luxemburgischer Minister f\u00fcr Familie, Solidarit\u00e4t, Zusammenleben und Unterbringung von Fl\u00fcchtlingen, erkl\u00e4rt in der Folge, warum das 2023 verabschiedete Gesetz zum interkulturellen Zusammenleben einen Paradigmenwechsel in der luxemburgischen Integrations- und Teilhabepolitik darstellt.'
       },
       {
-        text: 'Was ist das Portal \u201eZesummeliewen\u201c?',
+        text: 'K\u00f6nnen Grenzg\u00e4nger ohne Wohnsitz in Luxemburg in luxemburgischen Vereinen und im Ehrenamt aktiv sein?',
         options: [
-          'Ein deutsches Informationsportal f\u00fcr Grenzpendler nach Luxemburg',
-          'Das offizielle luxemburgische Integrationsportal mit Informationen und Ressourcen zur gesellschaftlichen Teilhabe in Luxemburg',
-          'Eine private Initiative luxemburgischer B\u00fcrger f\u00fcr mehr B\u00fcrgerbeteiligung',
-          'Ein Sprachlernangebot ausschlie\u00dflich f\u00fcr die luxemburgische Sprache'
+          'Nein, ehrenamtliches Engagement setzt einen offiziellen Wohnsitz in Luxemburg voraus',
+          'Ja, laut Leonie Fischer-Unterrainer von der Agence du B\u00e9n\u00e9volat k\u00f6nnen sich Grenzg\u00e4nger problemlos ehrenamtlich einbringen \u2013 ohne Wohnsitz in Luxemburg',
+          'Nur in Vereinen, die speziell f\u00fcr Grenzg\u00e4nger gegr\u00fcndet wurden',
+          'Nur f\u00fcr Personen, die seit mindestens 5 Jahren in Luxemburg arbeiten'
         ],
         correct: 1,
-        explanation: 'Zesummeliewen (\u201cZusammen leben\u201c auf Luxemburgisch) ist das offizielle luxemburgische Integrationsportal der Regierung. Es b\u00fcndelt Informationen zu Integration, Teilhabe, Sprachkursen und dem Biergerpakt-Programm.'
+        explanation: 'Leonie Fischer-Unterrainer von der Agence du B\u00e9n\u00e9volat erkl\u00e4rt in der Folge, dass sich Grenzg\u00e4nger sehr wohl ehrenamtlich in Luxemburg engagieren k\u00f6nnen \u2013 ein Wohnsitz in Luxemburg ist daf\u00fcr keine Voraussetzung.'
       },
       {
-        text: 'Welche Gewerkschaften sind in Luxemburg die gr\u00f6\u00dften und vertreten auch Grenzg\u00e4nger?',
+        text: 'Welche konkreten Angebote stellt Anne Daems vom Familienministerium in der Folge vor?',
         options: [
-          'DGB und ver.di (deutsche Gewerkschaften)',
-          'OGBL (Onofh\u00e4ngege Gewerkschaftsbond Lux\u00ebmbuerg) und LCGB (Lux\u00ebmburger Chreschteche Gewerkschaftsbond)',
-          'Nur die Handelskammer (Chambre de Commerce) vertritt Arbeitnehmerinteressen',
-          'Es gibt keine Gewerkschaften in Luxemburg'
+          'Neue Pendlertickets und Fahrtkostenerstattungen f\u00fcr Grenzg\u00e4nger',
+          'Einen digitalen Sprachcode, Orientierungstage und B\u00fcrgerateliers in der Arbeitsgemeinde \u2013 als Wege zur gesellschaftlichen Teilhabe f\u00fcr Grenzg\u00e4nger',
+          'Steuerliche Anreize f\u00fcr Grenzg\u00e4nger, die sich ehrenamtlich engagieren',
+          'Neue Regelungen zur Kinderbetreuung f\u00fcr Grenzg\u00e4nger'
         ],
         correct: 1,
-        explanation: 'Die beiden gr\u00f6\u00dften Gewerkschaften in Luxemburg sind der OGBL und der LCGB. Beide vertreten alle Arbeitnehmer in Luxemburg \u2013 unabh\u00e4ngig von deren Nationalit\u00e4t oder Wohnsitz \u2013 und sind auch f\u00fcr Grenzg\u00e4nger relevante Anlaufstellen.'
+        explanation: 'Anne Daems aus der Abteilung \u201eZusammenleben\u201c des Familienministeriums stellt konkrete Teilhabeangebote vor: einen digitalen Sprachcode, Orientierungstage sowie B\u00fcrgerateliers in der jeweiligen Arbeitsgemeinde.'
       }
     ]
   }
@@ -715,6 +715,126 @@ function showCertificate() {
   showScreen('screen-certificate');
 }
 
+// ── Admin ────────────────────────────────────────────────
+var ADMIN_PASSWORD = 'biergerpakt';
+var adminEpisodeIndex = 0;
+
+function adminLogin() {
+  var pw = document.getElementById('admin-pw').value;
+  var errEl = document.getElementById('admin-pw-error');
+  if (pw === ADMIN_PASSWORD) {
+    errEl.style.display = 'none';
+    document.getElementById('admin-pw').value = '';
+    adminEpisodeIndex = 0;
+    renderAdminTabs();
+    renderAdminQuestions();
+    showScreen('screen-admin');
+  } else {
+    errEl.style.display = 'block';
+  }
+}
+
+function renderAdminTabs() {
+  var wrap = document.getElementById('admin-ep-tabs');
+  wrap.innerHTML = '';
+  EPISODES.forEach(function(ep, i) {
+    var btn = document.createElement('button');
+    btn.className = 'admin-ep-tab' + (i === adminEpisodeIndex ? ' active' : '');
+    btn.textContent = ep.number;
+    btn.addEventListener('click', function() {
+      adminEpisodeIndex = i;
+      renderAdminTabs();
+      renderAdminQuestions();
+    });
+    wrap.appendChild(btn);
+  });
+}
+
+function renderAdminQuestions() {
+  var ep = EPISODES[adminEpisodeIndex];
+  var wrap = document.getElementById('admin-questions');
+  wrap.innerHTML = '';
+
+  var header = document.createElement('div');
+  header.style.cssText = 'margin-bottom:20px;';
+  header.innerHTML = '<h2 style="font-size:1.1rem; font-weight:800; color:var(--dark);">' + ep.number + ': ' + ep.title + '</h2>';
+  wrap.appendChild(header);
+
+  ep.questions.forEach(function(q, qi) {
+    var card = document.createElement('div');
+    card.className = 'admin-q-card';
+
+    var letters = ['A', 'B', 'C', 'D'];
+    var optionsHtml = '';
+    q.options.forEach(function(opt, oi) {
+      var checked = oi === q.correct ? ' checked' : '';
+      optionsHtml +=
+        '<div class="admin-option-row">' +
+          '<label class="admin-radio-label">' +
+            '<input type="radio" name="admin-correct-' + qi + '"' + checked + ' data-qi="' + qi + '" data-oi="' + oi + '">' +
+            '<span>' + letters[oi] + '</span>' +
+          '</label>' +
+          '<input type="text" data-qi="' + qi + '" data-oi="' + oi + '" class="admin-opt-input" value="' + escapeAttr(opt) + '">' +
+        '</div>';
+    });
+
+    card.innerHTML =
+      '<h3>Frage ' + (qi + 1) + '</h3>' +
+      '<div class="admin-field">' +
+        '<label>Fragetext</label>' +
+        '<textarea class="admin-q-text" data-qi="' + qi + '" rows="2">' + escapeHtml(q.text) + '</textarea>' +
+      '</div>' +
+      '<div class="admin-field">' +
+        '<label>Antwortm\u00f6glichkeiten (Korrekte Antwort ausw\u00e4hlen)</label>' +
+        optionsHtml +
+      '</div>' +
+      '<div class="admin-field">' +
+        '<label>Erkl\u00e4rung</label>' +
+        '<textarea class="admin-q-expl" data-qi="' + qi + '" rows="3">' + escapeHtml(q.explanation) + '</textarea>' +
+      '</div>';
+
+    wrap.appendChild(card);
+  });
+}
+
+function escapeAttr(str) {
+  return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function escapeHtml(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function adminSave() {
+  var ep = EPISODES[adminEpisodeIndex];
+
+  document.querySelectorAll('.admin-q-text').forEach(function(el) {
+    var qi = parseInt(el.getAttribute('data-qi'));
+    ep.questions[qi].text = el.value;
+  });
+
+  document.querySelectorAll('.admin-opt-input').forEach(function(el) {
+    var qi = parseInt(el.getAttribute('data-qi'));
+    var oi = parseInt(el.getAttribute('data-oi'));
+    ep.questions[qi].options[oi] = el.value;
+  });
+
+  document.querySelectorAll('input[type="radio"]:checked').forEach(function(el) {
+    var qi = parseInt(el.getAttribute('data-qi'));
+    var oi = parseInt(el.getAttribute('data-oi'));
+    ep.questions[qi].correct = oi;
+  });
+
+  document.querySelectorAll('.admin-q-expl').forEach(function(el) {
+    var qi = parseInt(el.getAttribute('data-qi'));
+    ep.questions[qi].explanation = el.value;
+  });
+
+  var msg = document.getElementById('admin-saved-msg');
+  msg.style.display = 'inline';
+  setTimeout(function() { msg.style.display = 'none'; }, 2500);
+}
+
 // ── Event Listeners (nach DOM-Laden) ─────────────────────
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('btn-register').addEventListener('click', doRegister);
@@ -728,4 +848,11 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('btn-back-episodes-result').addEventListener('click', function() {
     showScreen('screen-episodes');
   });
+
+  // Admin
+  document.getElementById('btn-admin-login').addEventListener('click', adminLogin);
+  document.getElementById('admin-pw').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') adminLogin();
+  });
+  document.getElementById('btn-admin-save').addEventListener('click', adminSave);
 });

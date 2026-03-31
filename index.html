@@ -777,6 +777,201 @@
       .cert-wrap { padding: 0; }
       .certificate { box-shadow: none; border: 3px solid var(--orange); }
     }
+
+    /* ─── ADMIN LINK ──────────────────────────────────── */
+    .admin-link {
+      font-size: 0.7rem;
+      color: var(--text-sub);
+      text-decoration: none;
+      cursor: pointer;
+      opacity: 0.5;
+      transition: opacity 0.2s;
+    }
+    .admin-link:hover { opacity: 1; }
+
+    /* ─── ADMIN SCREENS ──────────────────────────────── */
+    .admin-login-wrap {
+      max-width: 400px;
+      margin: 80px auto;
+      padding: 0 16px;
+    }
+
+    .admin-login-wrap .card { text-align: center; }
+
+    .admin-login-wrap .card h2 {
+      font-size: 1.2rem;
+      font-weight: 900;
+      margin-bottom: 6px;
+    }
+
+    .admin-login-wrap .card p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+
+    .admin-login-wrap .form-group { text-align: left; }
+
+    .admin-error {
+      color: var(--red);
+      font-size: 0.82rem;
+      font-weight: 600;
+      margin-top: 10px;
+      display: none;
+    }
+
+    /* Admin dashboard */
+    .admin-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+
+    .admin-topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 28px;
+    }
+
+    .admin-topbar h1 {
+      font-size: 1.4rem;
+      font-weight: 900;
+    }
+
+    .admin-ep-tabs {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+
+    .admin-ep-tab {
+      padding: 8px 16px;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      background: white;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      font-family: inherit;
+    }
+
+    .admin-ep-tab:hover { border-color: var(--orange); }
+    .admin-ep-tab.active { border-color: var(--orange); background: var(--orange-light); color: var(--orange); }
+
+    .admin-q-card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      margin-bottom: 16px;
+      border-left: 4px solid var(--orange);
+    }
+
+    .admin-q-card h3 {
+      font-size: 0.9rem;
+      font-weight: 800;
+      color: var(--orange);
+      margin-bottom: 14px;
+    }
+
+    .admin-field { margin-bottom: 14px; }
+
+    .admin-field label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #555;
+      margin-bottom: 4px;
+      letter-spacing: 0.3px;
+    }
+
+    .admin-field textarea,
+    .admin-field input[type="text"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+      background: #FAFAFA;
+    }
+
+    .admin-field textarea:focus,
+    .admin-field input[type="text"]:focus {
+      border-color: var(--orange);
+      background: white;
+    }
+
+    .admin-field textarea { resize: vertical; min-height: 60px; }
+
+    .admin-option-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .admin-option-row input[type="text"] {
+      flex: 1;
+      padding: 9px 12px;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+      background: #FAFAFA;
+    }
+
+    .admin-option-row input[type="text"]:focus {
+      border-color: var(--orange);
+      background: white;
+    }
+
+    .admin-radio-label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .admin-radio-label input[type="radio"] { accent-color: var(--green); }
+
+    .admin-save-bar {
+      position: sticky;
+      bottom: 16px;
+      background: white;
+      border-radius: 12px;
+      padding: 16px 24px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 24px;
+      border: 2px solid var(--orange);
+    }
+
+    .admin-save-bar span {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .admin-saved-msg {
+      color: var(--green);
+      font-size: 0.85rem;
+      font-weight: 700;
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -790,6 +985,7 @@
     <div class="logo-sub">Biergerpakt</div>
   </div>
   <div class="header-gov">
+    <a class="admin-link" id="admin-link" onclick="showScreen('screen-admin-login')">Admin</a>
     <img src="gov-light.svg" alt="Die Regierung des Gro&szlig;herzogtums Luxemburg" style="height:36px; width:auto;">
   </div>
 </header>
@@ -1025,6 +1221,55 @@
       <button class="btn btn-outline" id="btn-back-episode">
         &larr; Zur&uuml;ck zur Folge
       </button>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!-- SCREEN 7 · ADMIN LOGIN                                 -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div id="screen-admin-login" class="screen">
+  <div class="admin-login-wrap">
+    <div class="card">
+      <h2>Admin-Bereich</h2>
+      <p>Geben Sie das Passwort ein, um Fragen zu bearbeiten.</p>
+      <div class="form-group">
+        <label for="admin-pw">Passwort</label>
+        <input class="form-input" type="password" id="admin-pw" placeholder="Passwort eingeben">
+      </div>
+      <button class="btn btn-full" id="btn-admin-login">Anmelden &rarr;</button>
+      <div class="admin-error" id="admin-pw-error">Falsches Passwort. Bitte versuchen Sie es erneut.</div>
+      <button class="btn btn-ghost" style="margin-top:12px;" onclick="showScreen('screen-register')">&larr; Zur&uuml;ck</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!-- SCREEN 8 · ADMIN DASHBOARD                             -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div id="screen-admin" class="screen">
+  <div class="admin-wrap">
+
+    <div class="admin-topbar">
+      <h1>Fragen bearbeiten</h1>
+      <button class="btn btn-ghost" onclick="showScreen('screen-register')">&larr; Zur&uuml;ck zur Startseite</button>
+    </div>
+
+    <div class="admin-ep-tabs" id="admin-ep-tabs">
+      <!-- dynamisch bef&uuml;llt -->
+    </div>
+
+    <div id="admin-questions">
+      <!-- dynamisch bef&uuml;llt -->
+    </div>
+
+    <div class="admin-save-bar">
+      <span>&Auml;nderungen werden auf die aktuelle Sitzung angewendet.</span>
+      <div style="display:flex; align-items:center; gap:12px;">
+        <span class="admin-saved-msg" id="admin-saved-msg">&check; Gespeichert!</span>
+        <button class="btn" id="btn-admin-save">&Auml;nderungen speichern</button>
+      </div>
     </div>
 
   </div>
