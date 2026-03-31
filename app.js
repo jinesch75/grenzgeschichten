@@ -15,7 +15,7 @@ const QUESTIONS = [
     explanation: "Als Grenzgänger, der in Luxemburg arbeitet und dem dortigen Sozialversicherungssystem angehört, ist die CNS (Caisse Nationale de Santé) für Ihre Krankenversicherung zuständig – nicht die deutsche Krankenkasse."
   },
   {
-    text: "Was beschreibt das Luxemburger „Indexsystem" (Index)?",
+    text: "Was beschreibt das Luxemburger \u201EIndexsystem\u201C (Index)?",
     options: [
       "Ein steuerliches Bewertungsverfahren für grenzüberschreitende Einkünfte",
       "Eine automatische Anpassung von Löhnen und Sozialleistungen an die Preisentwicklung (Inflation)",
@@ -48,7 +48,7 @@ const QUESTIONS = [
     explanation: "Gemäß dem Doppelbesteuerungsabkommen (DBA) zwischen Deutschland und Luxemburg wird Arbeitseinkommen in dem Land besteuert, in dem die Arbeit ausgeübt wird – also in Luxemburg. Wichtige Ausnahme: Homeoffice-Tage im Wohnsitzland können unter bestimmten Bedingungen abweichend behandelt werden."
   },
   {
-    text: "Was ist ein „Grenzgänger" im Sinne des Luxemburger Arbeits- und Sozialversicherungsrechts?",
+    text: "Was ist ein \u201EGrenzg\u00E4nger\u201C im Sinne des Luxemburger Arbeits- und Sozialversicherungsrechts?",
     options: [
       "Jede Person mit luxemburgischer Staatsangehörigkeit, die im Ausland wohnt",
       "Eine Person, die in einem anderen EU-Staat wohnt, in Luxemburg arbeitet und regelmäßig an ihren Wohnort zurückkehrt",
