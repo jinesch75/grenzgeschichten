@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grenzgeschichten – Podcast-Quiz | Biergerpakt</title>
+  <title>Grenzgeschichten &ndash; Podcast-Quiz | Biergerpakt</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script src="app.js" defer></script>
@@ -71,7 +71,6 @@
       align-items: center;
       gap: 10px;
     }
-
 
     /* ─── SCREEN VISIBILITY ───────────────────────────── */
     .screen { display: none; }
@@ -228,7 +227,113 @@
     }
     .btn-outline:hover { background: var(--orange); color: white; }
 
-    /* ─── SCREEN 2 · EPISODE ──────────────────────────── */
+    .btn-ghost {
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      padding: 8px 14px;
+    }
+    .btn-ghost:hover { background: var(--border); color: var(--dark); box-shadow: none; transform: none; }
+
+    /* ─── SCREEN 2 · EPISODE LIST ────────────────────── */
+    .episodes-hero {
+      background: var(--dark);
+      color: white;
+      padding: 52px 24px 44px;
+      text-align: center;
+    }
+
+    .episodes-hero .ep-badge-main {
+      display: inline-block;
+      background: var(--orange);
+      color: white;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 99px;
+      margin-bottom: 16px;
+    }
+
+    .episodes-hero h1 {
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    .episodes-hero p {
+      font-size: 0.95rem;
+      opacity: 0.75;
+      max-width: 560px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .episode-grid-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 36px 20px 56px;
+    }
+
+    #episode-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .ep-list-card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border: 2px solid transparent;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .ep-list-card:hover {
+      border-color: var(--orange);
+      box-shadow: 0 4px 20px rgba(232,70,0,0.12);
+    }
+
+    .ep-list-badge {
+      display: inline-block;
+      background: var(--orange);
+      color: white;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 99px;
+      width: fit-content;
+    }
+
+    .ep-list-title {
+      font-size: 0.95rem;
+      font-weight: 800;
+      line-height: 1.3;
+      color: var(--dark);
+    }
+
+    .ep-list-desc {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+      flex: 1;
+    }
+
+    .ep-list-btn {
+      margin-top: 6px;
+      font-size: 0.85rem;
+      padding: 10px 18px;
+    }
+
+    /* ─── SCREEN 3 · EPISODE DETAIL ──────────────────── */
     .ep-hero {
       background: var(--dark);
       color: white;
@@ -310,7 +415,7 @@
       gap: 6px;
     }
 
-    .topic-chip::before { content: '→'; color: var(--orange); font-weight: 900; }
+    .topic-chip::before { content: '\2192'; color: var(--orange); font-weight: 900; }
 
     .quiz-cta {
       background: linear-gradient(135deg, #E84600, #b83300);
@@ -329,7 +434,7 @@
       margin-top: 12px;
     }
 
-    /* ─── SCREEN 3 · QUIZ ─────────────────────────────── */
+    /* ─── SCREEN 4 · QUIZ ─────────────────────────────── */
     .quiz-wrap {
       max-width: 720px;
       margin: 0 auto;
@@ -444,7 +549,7 @@
       margin-top: 22px;
     }
 
-    /* ─── SCREEN 4 · RESULTS ──────────────────────────── */
+    /* ─── SCREEN 5 · RESULTS ──────────────────────────── */
     .results-wrap {
       max-width: 720px;
       margin: 0 auto;
@@ -525,7 +630,7 @@
       margin-bottom: 16px;
     }
 
-    /* ─── SCREEN 5 · CERTIFICATE ──────────────────────── */
+    /* ─── SCREEN 6 · CERTIFICATE ──────────────────────── */
     .cert-wrap {
       max-width: 800px;
       margin: 0 auto;
@@ -663,6 +768,7 @@
       .q-card { padding: 24px 20px; }
       .certificate { padding: 36px 24px; }
       .cert-name { font-size: 1.4rem; }
+      #episode-grid { grid-template-columns: 1fr; }
     }
 
     @media print {
@@ -684,7 +790,7 @@
     <div class="logo-sub">Biergerpakt</div>
   </div>
   <div class="header-gov">
-    <img src="gov-light.svg" alt="Die Regierung des Großherzogtums Luxemburg" style="height:36px; width:auto;">
+    <img src="gov-light.svg" alt="Die Regierung des Gro&szlig;herzogtums Luxemburg" style="height:36px; width:auto;">
   </div>
 </header>
 
@@ -694,15 +800,15 @@
 <div id="screen-register" class="screen active">
 
   <div class="reg-hero">
-    <div class="tag">Biergerpakt · Podcast-Programm</div>
-    <h1>Podcast<br>„Grenzgeschichten"</h1>
-    <p>Leben &amp; Arbeiten zwischen Deutschland und Luxemburg – hören Sie zu und beweisen Sie Ihr Wissen. Erfolgreiche Teilnehmer erhalten ein persönliches Zertifikat.</p>
+    <div class="tag">Biergerpakt &middot; Podcast-Programm</div>
+    <h1>Podcast<br>&bdquo;Grenzgeschichten&ldquo;</h1>
+    <p>Leben &amp; Arbeiten zwischen Deutschland und Luxemburg &ndash; h&ouml;ren Sie zu und beweisen Sie Ihr Wissen. Erfolgreiche Teilnehmer erhalten ein pers&ouml;nliches Zertifikat.</p>
   </div>
 
   <div class="reg-form-wrap">
     <div class="card">
-      <div class="card-title">Persönliche Angaben</div>
-      <div class="card-sub">Bitte füllen Sie das Formular aus. Ihre Daten werden ausschließlich für die Ausstellung des Zertifikats verwendet.</div>
+      <div class="card-title">Pers&ouml;nliche Angaben</div>
+      <div class="card-sub">Bitte f&uuml;llen Sie das Formular aus. Ihre Daten werden ausschlie&szlig;lich f&uuml;r die Ausstellung des Zertifikats verwendet.</div>
 
       <div class="form-group">
         <label for="inp-first">Vorname *</label>
@@ -718,34 +824,53 @@
 
       <div class="form-group">
         <label for="inp-mat">Luxemburgische Sozialversicherungsnummer (Matrikelnummer) *</label>
-        <input class="form-input" type="text" id="inp-mat" placeholder="z. B. 1985030178901" maxlength="13">
+        <input class="form-input" type="text" id="inp-mat" placeholder="z.&nbsp;B. 1985030178901" maxlength="13">
         <div class="form-hint">13-stellige Zahl: Geburtsdatum (YYYYMMDD) + 5 Ziffern</div>
-        <div class="error-msg" id="err-mat">Bitte geben Sie eine gültige Matrikelnummer ein (13 Ziffern).</div>
+        <div class="error-msg" id="err-mat">Bitte geben Sie eine g&uuml;ltige Matrikelnummer ein (13 Ziffern).</div>
       </div>
 
       <div class="form-group">
         <label for="inp-email">E-Mail-Adresse *</label>
         <input class="form-input" type="email" id="inp-email" placeholder="ihre@email.de">
-        <div class="error-msg" id="err-email">Bitte geben Sie eine gültige E-Mail-Adresse ein.</div>
+        <div class="error-msg" id="err-email">Bitte geben Sie eine g&uuml;ltige E-Mail-Adresse ein.</div>
       </div>
 
       <button class="btn btn-full" id="btn-register">
-        Weiter zur Podcast-Folge →
+        Weiter zu den Podcast-Folgen &rarr;
       </button>
     </div>
   </div>
 </div>
 
 <!-- ══════════════════════════════════════════════════════ -->
-<!-- SCREEN 2 · FOLGE 1                                     -->
+<!-- SCREEN 2 · EPISODENLISTE                               -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div id="screen-episodes" class="screen">
+
+  <div class="episodes-hero">
+    <div class="ep-badge-main">Biergerpakt &middot; Podcast-Programm</div>
+    <h1>Grenzgeschichten &ndash; Alle Folgen</h1>
+    <p>W&auml;hlen Sie eine Folge aus, h&ouml;ren Sie den Podcast und absolvieren Sie das Quiz, um Ihr pers&ouml;nliches Zertifikat zu erhalten.</p>
+  </div>
+
+  <div class="episode-grid-wrap">
+    <div id="episode-grid">
+      <!-- dynamisch bef&uuml;llt durch app.js -->
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!-- SCREEN 3 · FOLGE DETAIL                                -->
 <!-- ══════════════════════════════════════════════════════ -->
 <div id="screen-episode" class="screen">
 
   <div class="ep-hero">
     <div class="ep-hero-inner">
-      <div class="ep-badge">Folge 1</div>
-      <h1>Arbeiten in Luxemburg –<br>Das müssen Grenzgänger wissen</h1>
-      <p>Mindestlohn, Elternzeit, Indexsystem, Krankenversicherung und mehr: Was Sie als Grenzgänger über Ihren Arbeitsalltag in Luxemburg wissen sollten.</p>
+      <button class="btn btn-ghost no-print" id="btn-back-episodes" style="margin-bottom:16px; color:rgba(255,255,255,0.7);">&larr; Alle Folgen</button>
+      <div class="ep-badge" id="ep-badge">Folge 1</div>
+      <h1 id="ep-title"></h1>
+      <p id="ep-description"></p>
     </div>
   </div>
 
@@ -753,56 +878,50 @@
 
     <!-- Podcast-Player -->
     <div class="ep-card">
-      <div class="ep-card-title">🎧 Folge anhören</div>
+      <div class="ep-card-title">&#127911; Folge anh&ouml;ren</div>
       <iframe
+        id="ep-spotify"
         style="border-radius:10px; display:block;"
-        src="https://open.spotify.com/embed/episode/7orxi3Ywc4vFtkjzQ2ohv6?utm_source=generator&theme=0"
+        src=""
         width="100%" height="152" frameborder="0"
         allowfullscreen
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
       </iframe>
       <p style="font-size:0.8rem; color:var(--text-sub); margin-top:10px; line-height:1.5;">
-        Auch verfügbar auf <strong>Apple Podcasts</strong>, <strong>YouTube</strong> und allen gängigen Podcast-Plattformen.
-        Bitte hören Sie die vollständige Folge an, bevor Sie das Quiz starten.
+        Auch verf&uuml;gbar auf <strong>Apple Podcasts</strong>, <strong>YouTube</strong> und allen g&auml;ngigen Podcast-Plattformen.
+        Bitte h&ouml;ren Sie die vollst&auml;ndige Folge an, bevor Sie das Quiz starten.
       </p>
     </div>
 
     <!-- Themen -->
     <div class="ep-card">
-      <div class="ep-card-title">📋 Themen dieser Folge</div>
-      <div class="topics-grid">
-        <div class="topic-chip">Sozialversicherungspflicht</div>
-        <div class="topic-chip">Mindestlohn (SSM)</div>
-        <div class="topic-chip">Indexsystem</div>
-        <div class="topic-chip">Krankenversicherung (CNS)</div>
-        <div class="topic-chip">Elternzeit &amp; Elterngeld</div>
-        <div class="topic-chip">Homeoffice-Regelung</div>
-        <div class="topic-chip">Steuerliche Grundlagen</div>
-        <div class="topic-chip">Grenzgänger-Definition</div>
+      <div class="ep-card-title">&#128203; Themen dieser Folge</div>
+      <div class="topics-grid" id="ep-topics">
+        <!-- dynamisch bef&uuml;llt -->
       </div>
     </div>
 
     <!-- Quiz starten -->
     <div class="quiz-cta">
-      <h2>Bereit für das Quiz?</h2>
-      <p>Beantworten Sie 5 Fragen zu dieser Folge. Alle Antworten müssen korrekt sein,<br>um Ihr persönliches Teilnahmezertifikat zu erhalten.</p>
-      <button class="btn btn-white" id="btn-start-quiz">Quiz jetzt starten →</button>
-      <div class="quiz-cta-meta">5 Fragen · Multiple Choice · Unbegrenzte Versuche bei falschen Antworten</div>
+      <h2>Bereit f&uuml;r das Quiz?</h2>
+      <p>Beantworten Sie 5 Fragen zu dieser Folge. Alle Antworten m&uuml;ssen korrekt sein,<br>um Ihr pers&ouml;nliches Teilnahmezertifikat zu erhalten.</p>
+      <button class="btn btn-white" id="btn-start-quiz">Quiz jetzt starten &rarr;</button>
+      <div class="quiz-cta-meta">5 Fragen &middot; Multiple Choice &middot; Unbegrenzte Versuche bei falschen Antworten</div>
     </div>
 
   </div>
 </div>
 
 <!-- ══════════════════════════════════════════════════════ -->
-<!-- SCREEN 3 · QUIZ                                        -->
+<!-- SCREEN 4 · QUIZ                                        -->
 <!-- ══════════════════════════════════════════════════════ -->
 <div id="screen-quiz" class="screen">
   <div class="quiz-wrap">
 
     <div class="quiz-topbar">
       <span id="q-counter">Frage 1 von 5</span>
-      <span id="q-label">Folge 1 – Grenzgeschichten</span>
+      <span id="q-label">Folge 1 &ndash; Grenzgeschichten</span>
     </div>
     <div class="progress-outer">
       <div class="progress-inner" id="q-progress" style="width:20%"></div>
@@ -814,7 +933,7 @@
       <div id="q-options"></div>
       <div class="feedback" id="q-feedback"></div>
       <div class="q-footer">
-        <button class="btn hidden" id="btn-next">Weiter →</button>
+        <button class="btn hidden" id="btn-next">Weiter &rarr;</button>
       </div>
     </div>
 
@@ -822,7 +941,7 @@
 </div>
 
 <!-- ══════════════════════════════════════════════════════ -->
-<!-- SCREEN 4 · ERGEBNIS                                    -->
+<!-- SCREEN 5 · ERGEBNIS                                    -->
 <!-- ══════════════════════════════════════════════════════ -->
 <div id="screen-results" class="screen">
   <div class="results-wrap">
@@ -838,19 +957,25 @@
 
     <!-- Falsche Antworten -->
     <div class="retry-card hidden" id="retry-card">
-      <h3>⚠️ Falsch beantwortete Fragen</h3>
-      <p>Hören Sie die entsprechenden Teile der Folge noch einmal an und versuchen Sie diese Fragen erneut. Sie müssen alle Fragen richtig beantworten, um das Zertifikat zu erhalten.</p>
+      <h3>&#9888;&#65039; Falsch beantwortete Fragen</h3>
+      <p>H&ouml;ren Sie die entsprechenden Teile der Folge noch einmal an und versuchen Sie diese Fragen erneut. Sie m&uuml;ssen alle Fragen richtig beantworten, um das Zertifikat zu erhalten.</p>
       <div id="wrong-list"></div>
       <button class="btn" style="margin-top: 20px;" id="btn-retry">
-        Falsche Fragen erneut versuchen →
+        Falsche Fragen erneut versuchen &rarr;
       </button>
     </div>
 
     <!-- Zertifikat -->
     <div class="success-banner hidden" id="success-banner">
-      <p>🎉 Herzlichen Glückwunsch! Sie haben alle Fragen korrekt beantwortet!</p>
+      <p>&#127881; Herzlichen Gl&uuml;ckwunsch! Sie haben alle Fragen korrekt beantwortet!</p>
       <button class="btn btn-green" id="btn-show-cert">
-        Zertifikat herunterladen 🎓
+        Zertifikat herunterladen &#127891;
+      </button>
+    </div>
+
+    <div style="text-align:center;">
+      <button class="btn btn-outline" id="btn-back-episodes-result">
+        &larr; Andere Folge ausw&auml;hlen
       </button>
     </div>
 
@@ -858,7 +983,7 @@
 </div>
 
 <!-- ══════════════════════════════════════════════════════ -->
-<!-- SCREEN 5 · ZERTIFIKAT                                  -->
+<!-- SCREEN 6 · ZERTIFIKAT                                  -->
 <!-- ══════════════════════════════════════════════════════ -->
 <div id="screen-certificate" class="screen">
   <div class="cert-wrap">
@@ -873,19 +998,17 @@
       <div class="cert-divider"></div>
 
       <div class="cert-label">Teilnahmezertifikat</div>
-      <div class="cert-big-title">Podcast „Grenzgeschichten"</div>
+      <div class="cert-big-title">Podcast &bdquo;Grenzgeschichten&ldquo;</div>
 
-      <div class="cert-body-text">Hiermit wird bestätigt, dass</div>
+      <div class="cert-body-text">Hiermit wird best&auml;tigt, dass</div>
       <div class="cert-name" id="cert-name-out"></div>
-      <div class="cert-body-text">die folgende Podcast-Episode vollständig angehört und den Wissenstest erfolgreich abgeschlossen hat:</div>
+      <div class="cert-body-text">die folgende Podcast-Episode vollst&auml;ndig angeh&ouml;rt und den Wissenstest erfolgreich abgeschlossen hat:</div>
 
-      <div class="cert-episode-box">
-        Folge 1: Arbeiten in Luxemburg – Das müssen Grenzgänger wissen
-      </div>
+      <div class="cert-episode-box" id="cert-episode-out"></div>
 
       <div class="cert-seal">
-        <span class="cert-seal-icon">✓</span>
-        Biergerpakt<br>Bestätigt
+        <span class="cert-seal-icon">&#10003;</span>
+        Biergerpakt<br>Best&auml;tigt
       </div>
 
       <div class="cert-footer">
@@ -897,10 +1020,10 @@
 
     <div class="cert-actions no-print">
       <button class="btn" id="btn-print">
-        🖨️ Drucken / Als PDF speichern
+        &#128424;&#65039; Drucken / Als PDF speichern
       </button>
       <button class="btn btn-outline" id="btn-back-episode">
-        ← Zurück zur Folge
+        &larr; Zur&uuml;ck zur Folge
       </button>
     </div>
 
